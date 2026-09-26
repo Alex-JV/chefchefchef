@@ -54,7 +54,10 @@ const lit = (v) => {
   if (typeof v === 'object') return `'${JSON.stringify(v).replace(/'/g, "''")}'::jsonb`;
   return `'${String(v).replace(/'/g, "''")}'`;
 };
-const insert = (table, rows, cols) => rows.length ? `insert into public.${table} (${cols.join(', ')}) values\n${rows.map((r) => `  (${cols.map((c) => lit(r[c])).join(', ')})`).join(',\n')}\non conflict (id) do nothing;\n` : '';
+// Colonnes jsonb : toujours sérialisées en JSON (un tableau vide n'est pas un text[]).
+const JSONB = new Set(['ingredients', 'steps', 'pitfalls']);
+const cell = (c, v) => (JSONB.has(c) ? `'${JSON.stringify(v ?? []).replace(/'/g, "''")}'::jsonb` : lit(v));
+const insert = (table, rows, cols) => rows.length ? `insert into public.${table} (${cols.join(', ')}) values\n${rows.map((r) => `  (${cols.map((c) => cell(c, r[c])).join(', ')})`).join(',\n')}\non conflict (id) do nothing;\n` : '';
 
 const sql = [
   '-- ============================================================',
