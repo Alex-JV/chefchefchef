@@ -5,8 +5,8 @@
 // Laisse les deux champs vides pour tester l'app en « mode démo » : les données
 // restent alors dans le navigateur (localStorage) et rien n'est partagé.
 window.CCC_CONFIG = {
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+  SUPABASE_URL: "https://hqntpwyfepzvviingzal.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_Ko-stjcdprzwr575MMcGUw_qu63hMn7",
   // Compte technique partagé (créé dans Supabase → Authentication → Users).
   // Aucun des deux profils n'a besoin d'un email : celui-ci est invisible dans l'app.
   AUTH_EMAIL: "cuisine@chefchefchef.local",
