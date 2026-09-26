@@ -87,8 +87,18 @@ export function createSupabaseBackend(config) {
   async function parseRecipe(text, existingTags) {
     const { data, error } = await client.functions.invoke('parse-recipe', { body: { text, existing_tags: existingTags } });
     if (error) {
+      // FunctionsHttpError : le corps de la réponse (JSON ou texte) dit pourquoi.
       let detail = error.message;
-      try { const body = await error.context?.json?.(); if (body?.error) detail = body.error; } catch { /* ignore */ }
+      const res = error.context;
+      try {
+        const status = res?.status ? `HTTP ${res.status} — ` : '';
+        const text = res?.text ? await res.text() : '';
+        let body = null; try { body = JSON.parse(text); } catch { /* texte brut */ }
+        const msg = body?.error || body?.message || body?.msg || text || error.message;
+        detail = status + msg;
+        if (res?.status === 401) detail += ' (décoche « Verify JWT » sur la fonction dans Supabase, voir DEPLOY.md)';
+        if (res?.status === 404) detail += ' (la fonction doit s’appeler exactement parse-recipe)';
+      } catch { /* on garde le message générique */ }
       throw new Error(detail);
     }
     if (data?.error) throw new Error(data.error);
