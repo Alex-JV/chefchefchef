@@ -1,0 +1,37 @@
+# Déploie le dossier app/ sur GitHub Pages à chaque push sur main.
+# Prérequis (une seule fois) : Settings → Pages → Source : « GitHub Actions ».
+name: Déployer sur GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vérifier la configuration
+        run: |
+          if grep -q 'SUPABASE_URL: ""' app/config.js; then
+            echo "::warning::app/config.js n'a pas d'URL Supabase : le site sera déployé en mode démo (données locales, non partagées)."
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Ciseler un oignon",
+    "description": "Couper un oignon en petits dés réguliers, rapidement et sans larmes (ou presque). Sert de base à la plupart des plats mijotés et des sauces.",
+    "steps": [
+      "Couper l'oignon en deux par la racine, éplucher chaque moitié en gardant la racine : c'est elle qui tient les couches ensemble.",
+      "Poser la moitié à plat. Faire des incisions horizontales vers la racine sans la traverser.",
+      "Faire des incisions verticales, parallèles, de la pointe vers la racine, toujours sans la traverser.",
+      "Trancher perpendiculairement : les dés tombent tout seuls. Jeter la racine."
+    ],
+    "pitfalls": [
+      "Couper la racine dès le début : l'oignon se défait et les dés sont irréguliers.",
+      "Un couteau mal affûté écrase les cellules et fait pleurer davantage."
+    ],
+    "tags": ["découpe", "base"],
+    "is_example": true
+  },
+  {
+    "title": "Cuire des pâtes al dente",
+    "description": "Des pâtes fermes sous la dent, qui finissent de cuire dans la sauce. Utile pour [[Spaghetti alle vongole]] et [[Pâtes au poulet & tomates cerises]].",
+    "steps": [
+      "Un grand volume d'eau (environ 1 litre pour 100 g de pâtes), porté à forte ébullition.",
+      "Saler franchement à l'ébullition (environ 10 g par litre) : c'est la seule occasion d'assaisonner les pâtes elles-mêmes.",
+      "Verser les pâtes, remuer dans la première minute pour qu'elles ne collent pas.",
+      "Goûter 1 à 2 minutes avant le temps indiqué sur le paquet : la pâte doit résister un peu au centre.",
+      "Prélever une louche d'eau de cuisson avant d'égoutter, puis finir la cuisson 1 à 2 minutes dans la sauce avec un peu de cette eau."
+    ],
+    "pitfalls": [
+      "Rincer les pâtes : cela enlève l'amidon qui lie la sauce.",
+      "Mettre de l'huile dans l'eau : inutile, et la sauce accroche moins.",
+      "Égoutter à fond sans garder d'eau de cuisson : la sauce sera sèche."
+    ],
+    "tags": ["cuisson", "pâtes", "base"],
+    "is_example": true
+  },
+  {
+    "title": "Déglacer",
+    "description": "Récupérer les sucs caramélisés au fond d'une poêle ou d'une casserole avec un liquide (vin, alcool, bouillon, eau) pour en faire la base d'une sauce. C'est ce que fait l'étape au cognac et vin blanc de [[Bucatini bisque de homard & gambas]].",
+    "steps": [
+      "Après avoir saisi viande, crustacés ou aromates, retirer l'excès de gras mais garder les sucs bruns au fond.",
+      "Verser le liquide (2 à 10 cl) sur feu vif : il bout immédiatement.",
+      "Gratter le fond avec une spatule en bois pour décoller tous les sucs.",
+      "Laisser réduire de moitié avant d'ajouter le reste de la sauce."
+    ],
+    "pitfalls": [
+      "Déglacer une poêle brûlée (sucs noirs) : la sauce sera amère.",
+      "Utiliser un vin qu'on ne boirait pas : son défaut se concentre en réduisant."
+    ],
+    "tags": ["sauce", "base"],
+    "is_example": true
+  },
+  {
+    "title": "Faire dégorger des coquillages",
+    "description": "Débarrasser palourdes, coques ou moules de leur sable avant cuisson. Indispensable pour [[Spaghetti alle vongole]].",
+    "steps": [
+      "Rincer les coquillages à l'eau froide et jeter ceux qui sont cassés ou qui restent ouverts quand on les tapote.",
+      "Les mettre dans un saladier d'eau froide salée (environ 30 g de sel par litre, comme la mer).",
+      "Laisser reposer 20 à 30 minutes au frais : ils recrachent leur sable.",
+      "Sortir les coquillages à la main (ne pas verser le saladier : le sable retomberait dessus), changer l'eau et recommencer une ou deux fois.",
+      "Rincer une dernière fois et égoutter."
+    ],
+    "pitfalls": [
+      "Eau non salée : les coquillages se referment et ne dégorgent pas.",
+      "Trop longtemps dans l'eau (plus d'une heure) : ils s'épuisent et meurent."
+    ],
+    "tags": ["préparation", "fruits de mer"],
+    "is_example": true
+  },
+  {
+    "title": "Roux et béchamel",
+    "description": "Le roux (beurre + farine cuits ensemble) épaissit les sauces. Mouillé au lait, il devient béchamel ; au bouillon, velouté.",
+    "steps": [
+      "Fondre 40 g de beurre à feu doux, ajouter 40 g de farine et cuire 2 minutes en remuant : le mélange mousse et sent le biscuit (roux blanc).",
+      "Verser 50 cl de lait froid d'un coup, fouetter énergiquement pour éviter les grumeaux.",
+      "Porter à frémissement en remuant sans arrêt jusqu'à épaississement (3 à 5 minutes).",
+      "Assaisonner : sel, poivre, muscade."
+    ],
+    "pitfalls": [
+      "Lait chaud sur roux chaud : grumeaux garantis. L'un des deux doit être froid.",
+      "Arrêter de remuer : ça attache et brûle au fond."
+    ],
+    "tags": ["sauce", "base"],
+    "is_example": true
+  }
+]

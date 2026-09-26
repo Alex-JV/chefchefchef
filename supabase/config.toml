@@ -1,0 +1,6 @@
+# Configuration Supabase CLI (optionnelle : uniquement si tu déploies avec la CLI).
+project_id = "shiba-cuisine"
+
+[functions.parse-recipe]
+# La fonction vérifie elle-même la session utilisateur (voir index.ts).
+verify_jwt = false

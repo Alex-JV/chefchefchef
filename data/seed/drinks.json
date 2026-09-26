@@ -1,0 +1,52 @@
+[
+  { "kind": "wine", "name": "Irancy Fontaine Goby", "type": null, "region": "Irancy", "vintage": 2019, "notes": null, "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Sciaccarellu « Sempre Contentu » – Domaine Giacometti", "type": "sciaccarellu", "region": null, "vintage": 2021, "notes": null, "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Vosne-Romanée", "type": null, "region": "Vosne-Romanée", "vintage": null, "notes": "Goûté chez Meiji.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Prunelart doux", "type": "doux", "region": null, "vintage": 2020, "notes": "Goûté chez Meiji.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Fumey-Chatelain Arbois", "type": null, "region": "Arbois", "vintage": 2017, "notes": "Goûté au Vaisseau (Cachot).", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Inopia rouge – Rotem et Mounir", "type": "rouge", "region": null, "vintage": 2018, "notes": "Goûté au Vaisseau (Cachot).", "stock": 0, "is_example": false },
+  { "kind": "spirit", "name": "Hampden Estate 8 ans", "type": "rhum", "region": null, "vintage": null, "notes": "Goûté au Vaisseau (Cachot).", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "L'Arjolle Paradoxe", "type": null, "region": null, "vintage": null, "notes": "Le Bouclier de Bacchus.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Domaine de Vénus – L'Effrontée", "type": null, "region": null, "vintage": null, "notes": "Le Bouclier de Bacchus.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Le Versant – Loulou et Caroline", "type": null, "region": null, "vintage": 2021, "notes": "Le Bouclier de Bacchus.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Domaine de Nigri", "type": null, "region": null, "vintage": null, "notes": "Noté sous « Macron » dans Notion.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Domaine Pélaquié", "type": null, "region": null, "vintage": null, "notes": "Grand Tasting Louvre.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Cuvée Amandine – Saint-Joseph", "type": null, "region": "Saint-Joseph", "vintage": 2024, "notes": "Grand Tasting Louvre.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Château du Moulin-à-Vent – La Rochelle", "type": null, "region": "Moulin-à-Vent", "vintage": 2023, "notes": "Grand Tasting Louvre.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Domaine Faiveley – Mercurey Vieilles Vignes", "type": null, "region": "Mercurey", "vintage": 2023, "notes": "Grand Tasting Louvre.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Château Mont-Redon – Châteauneuf-du-Pape", "type": null, "region": "Châteauneuf-du-Pape", "vintage": 2015, "notes": "Grand Tasting Louvre.", "stock": 0, "is_example": false },
+  { "kind": "wine", "name": "Château Bélair-Monange – Premier Grand Cru Classé Saint-Émilion", "type": null, "region": "Saint-Émilion", "vintage": 2019, "notes": "Grand Tasting Louvre.", "stock": 0, "is_example": false },
+
+  { "kind": "cocktail", "name": "Entier", "is_shot": true, "ingredients": [
+      { "qty": null, "unit": null, "name": "Chartreuse jaune", "note": null },
+      { "qty": null, "unit": null, "name": "Aperol", "note": null },
+      { "qty": null, "unit": null, "name": "mezcal", "note": null } ],
+    "method": null, "notes": "Dosages non notés dans Notion.", "is_example": false },
+  { "kind": "cocktail", "name": "Perchoir Ménilmontant", "is_shot": true, "ingredients": [
+      { "qty": null, "unit": null, "name": "mezcal", "note": "Vida" },
+      { "qty": null, "unit": null, "name": "sirop de piment maison", "note": null } ],
+    "method": null, "notes": "Dosages non notés dans Notion.", "is_example": false },
+  { "kind": "cocktail", "name": "Mini Guinness", "is_shot": true, "ingredients": [], "method": null, "notes": "Aucun détail dans Notion.", "is_example": false },
+  { "kind": "cocktail", "name": "Spritz PSG", "is_shot": false, "ingredients": [], "method": null, "notes": "Dans Notion, seulement une photo (non importée).", "is_example": false },
+
+  { "kind": "wine", "name": "Chinon rouge (exemple)", "type": "rouge", "region": "Loire", "vintage": 2020, "notes": "Fiche d'exemple : montre la gestion de cave (stock, apogée, « à boire avant »). À adapter ou supprimer.", "stock": 2, "peak_from": 2024, "peak_to": 2030, "drink_before": "2031-12-31", "is_example": true },
+  { "kind": "spirit", "name": "Gin London Dry (exemple)", "type": "gin", "region": null, "vintage": null, "notes": "Fiche d'exemple. En stock, donc compté automatiquement dans « Mon bar ».", "stock": 1, "is_example": true },
+  { "kind": "spirit", "name": "Campari (exemple)", "type": "bitter", "region": null, "vintage": null, "notes": "Fiche d'exemple. En stock, donc compté automatiquement dans « Mon bar ».", "stock": 1, "is_example": true },
+  { "kind": "cocktail", "name": "Negroni", "is_shot": false, "ingredients": [
+      { "qty": 3, "unit": "cl", "name": "gin", "note": null },
+      { "qty": 3, "unit": "cl", "name": "Campari", "note": null },
+      { "qty": 3, "unit": "cl", "name": "vermouth rouge", "note": null } ],
+    "method": "Dans un verre old fashioned rempli de glaçons, verser les trois ingrédients et remuer à la cuillère 20 secondes. Garnir d'un zeste d'orange.", "notes": "Fiche d'exemple (dosages classiques). Avec le gin et le Campari d'exemple en cave, il ne manque que le vermouth : c'est le cas « à un ingrédient près ».", "is_example": true },
+  { "kind": "cocktail", "name": "Mojito", "is_shot": false, "ingredients": [
+      { "qty": 5, "unit": "cl", "name": "rhum blanc", "note": null },
+      { "qty": 3, "unit": "cl", "name": "jus de citron vert", "note": null },
+      { "qty": 2, "unit": "c. à café", "name": "sucre de canne", "note": null },
+      { "qty": 6, "unit": "feuille", "name": "menthe", "note": null },
+      { "qty": null, "unit": null, "name": "eau gazeuse", "note": "pour compléter" } ],
+    "method": "Piler doucement la menthe avec le sucre et le citron vert dans un verre highball, ajouter le rhum, remplir de glace pilée, compléter d'eau gazeuse et remuer.", "notes": "Fiche d'exemple (dosages classiques).", "is_example": true },
+  { "kind": "cocktail", "name": "Spritz", "is_shot": false, "ingredients": [
+      { "qty": 6, "unit": "cl", "name": "prosecco", "note": null },
+      { "qty": 4, "unit": "cl", "name": "Aperol", "note": null },
+      { "qty": 2, "unit": "cl", "name": "eau gazeuse", "note": null } ],
+    "method": "Dans un grand verre à vin rempli de glaçons : prosecco, puis Aperol, puis eau gazeuse. Une tranche d'orange.", "notes": "Fiche d'exemple (dosages classiques). À comparer avec [[Spritz PSG]].", "is_example": true }
+]

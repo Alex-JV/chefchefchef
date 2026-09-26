@@ -1,0 +1,2341 @@
+{
+ "recipes": [
+  {
+   "id": "8096f572-19ac-50b8-a8ac-f6892523446b",
+   "title": "Raclette",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "fromage",
+    "charcuterie"
+   ],
+   "ingredients": [
+    {
+     "qty": 250,
+     "unit": "g",
+     "name": "fromage à raclette",
+     "note": "par personne"
+    },
+    {
+     "qty": 200,
+     "unit": "g",
+     "name": "charcuterie",
+     "note": "200 à 250 g par personne · à revoir si jambon en chiffonnade"
+    }
+   ],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Quantités par personne sans nombre de convives, aucune étape.",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "Raclette\n- 250g/pers fromage\n- 200/250g/pers charcuterie (a revoir si jambon en chiffonnade)",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "83fd94b3-c8ef-5e9a-adaa-cc1a140acc4b",
+   "title": "Poulet enoki",
+   "servings": 2,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "poulet",
+    "champignons",
+    "asiatique",
+    "wok"
+   ],
+   "ingredients": [
+    {
+     "qty": 2,
+     "unit": null,
+     "name": "hauts de cuisses de poulet",
+     "note": null
+    },
+    {
+     "qty": 6,
+     "unit": "gousse",
+     "name": "ail",
+     "note": "finement hachées"
+    },
+    {
+     "qty": 3,
+     "unit": "tranche",
+     "name": "gingembre",
+     "note": "finement hachées"
+    },
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "champignons enoki",
+     "note": "après avoir coupé les racines"
+    },
+    {
+     "qty": 2,
+     "unit": "c. à soupe",
+     "name": "huile",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "c. à soupe",
+     "name": "sauce soja claire",
+     "note": null
+    },
+    {
+     "qty": 0.25,
+     "unit": "c. à café",
+     "name": "sucre",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "c. à café",
+     "name": "maïzena",
+     "note": null
+    },
+    {
+     "qty": 150,
+     "unit": "ml",
+     "name": "eau",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "branche",
+     "name": "ciboulette chinoise",
+     "note": "3 à 4 branches"
+    }
+   ],
+   "steps": [
+    "Préparation des enokis : coupez la base des enokis pour séparer les champignons. Rincez-les délicatement si nécessaire.",
+    "Préparation du poulet : désossez les hauts de cuisses, retirez la peau et coupez le poulet en petits morceaux.",
+    "Sauter le poulet : faites chauffer l'huile dans un wok ou une poêle profonde sur feu vif. Ajoutez le poulet et faites-le revenir en remuant régulièrement.",
+    "Ajouter l'ail et le gingembre : incorporez l'ail et le gingembre hachés au poulet. Faites revenir jusqu'à ce qu'ils commencent à dorer.",
+    "Ajouter les enokis : ajoutez les enokis dans la poêle. Faites-les sauter pendant 3 à 4 minutes jusqu'à ce qu'ils deviennent tendres.",
+    "Préparer la sauce : mélangez la maïzena avec l'eau pour éviter les grumeaux. Versez ce mélange dans la poêle, puis ajoutez la sauce soja et le sucre. Remuez bien pour que la sauce épaississe légèrement.",
+    "Ajouter la ciboulette : coupez la ciboulette chinoise en petits morceaux et ajoutez-la à la préparation. Mélangez bien.",
+    "Servir : servez immédiatement, accompagné de riz si désiré."
+   ],
+   "notes": null,
+   "source_url": "https://lacuisinedebernard.com/les-enokis-sautes-lail-et-au-poule/",
+   "ambiguous": false,
+   "source_text": "poulet enoki\nhttps://lacuisinedebernard.com/les-enokis-sautes-lail-et-au-poule/\nIngrédients pour 2 personnes :\n2 hauts de cuisses de poulet\n6 gousses d'ail finement hachées\n3 tranches de gingembre finement hachées\n400 g de champignons enoki (après avoir coupé les racines)\n2 cuillères à soupe d'huile\n1 cuillère à soupe de sauce soja claire\n1/4 de cuillère à café de sucre\n1 cuillère à café de maïzena\n150 ml d'eau\n3 à 4 branches de ciboulette chinoise\n\nInstructions :\n1. Préparation des enokis : Coupez la base des enokis pour séparer les champignons. Rincez-les délicatement si nécessaire.\n2. Préparation du poulet : Désossez les hauts de cuisses, retirez la peau et coupez le poulet en petits morceaux.\n3. Sauter le poulet : Faites chauffer l'huile dans un wok ou une poêle profonde sur feu vif. Ajoutez le poulet et faites-le revenir en remuant régulièrement.\n4. Ajouter l'ail et le gingembre : Incorporez l'ail et le gingembre hachés au poulet. Faites revenir jusqu'à ce qu'ils commencent à dorer.\n5. Ajouter les enokis : Ajoutez les enokis dans la poêle. Faites-les sauter pendant 3 à 4 minutes jusqu'à ce qu'ils deviennent tendres.\n6. Préparer la sauce : Mélangez la maïzena avec l'eau pour éviter les grumeaux. Versez ce mélange dans la poêle, puis ajoutez la sauce soja et le sucre. Remuez bien pour que la sauce épaississe légèrement.\n7. Ajouter la ciboulette : Coupez la ciboulette chinoise en petits morceaux et ajoutez-la à la préparation. Mélangez bien.\n8. Servir : Servez immédiatement, accompagné de riz si désiré.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "a44de1bf-5d9c-5d35-ab2d-8587bf1d6318",
+   "title": "Aubergines gratinées express",
+   "servings": 1,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "aubergine",
+    "gratin",
+    "rapide",
+    "végétarien"
+   ],
+   "ingredients": [
+    {
+     "qty": 2,
+     "unit": null,
+     "name": "aubergines",
+     "note": "env. 550 g"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "huile d'olive",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "origan",
+     "note": "ou thym"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "sel",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "poivre",
+     "note": null
+    },
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "emmental râpé",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Couper les aubergines en belles et longues tranches d'environ 5 mm d'épaisseur.",
+    "Préchauffer le four à 190 °C.",
+    "Poser les tranches sur une ou 2 plaques de cuisson recouvertes de papier cuisson.",
+    "Verser un filet d'huile d'olive par-dessus. Puis saupoudrer d'origan (ou de thym), de sel et de poivre. Répartir l'emmental râpé par-dessus.",
+    "Enfourner 15 à 20 min. L'emmental doit commencer à dorer.",
+    "Déguster immédiatement."
+   ],
+   "notes": null,
+   "source_url": null,
+   "ambiguous": false,
+   "source_text": "Aubergines gratinées express\nINGRÉDIENTS 1 PERSONNE\n- 2 aubergines env 550g\n- huile d'olive\n- origan ou thym\n- sel poivre\n- 400 g d'emmental râpé\nINSTRUCTIONS\n- Couper les aubergines en belles et longues tranches d'environ 5mm d'épaisseur.\n- Préchauffer le four à 190°C.\n- Poser les tranches sur une ou 2 plaques de cuisson recouvertes de papier cuisson.\n- Verser un filet d'huile d'olive par-dessus. Puis saupoudrer d'origan (ou de thym), de sel et de poivre. Répartir l'emmental râpé par-dessus.\n- Enfourner 15 à 20min. L'emmental doit commencer à dorer.\n- Déguster immédiatement.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "859fa127-9040-5f07-a821-f4554498a7e2",
+   "title": "Tzatziki",
+   "servings": 6,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "sauce",
+    "grec",
+    "concombre",
+    "sans cuisson"
+   ],
+   "ingredients": [
+    {
+     "qty": 2,
+     "unit": null,
+     "name": "concombres",
+     "note": "gros (ou 3 petits)"
+    },
+    {
+     "qty": 2,
+     "unit": null,
+     "name": "yaourts grecs",
+     "note": "soit 400 g de yaourt"
+    },
+    {
+     "qty": 1,
+     "unit": "c. à soupe",
+     "name": "huile d'olive",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "c. à soupe",
+     "name": "feuilles de menthe hachées",
+     "note": "on peut mettre aussi de l'aneth ou ne pas mettre d'herbes du tout"
+    },
+    {
+     "qty": 4,
+     "unit": "gousse",
+     "name": "ail",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "pincée",
+     "name": "sel",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "pincée",
+     "name": "poivre",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Épluchez les concombres. Fendez-les en deux et à l'aide d'une petite cuillère, ôtez-en les graines puis râpez-les (grille fine). Mettez-les dans une passoire et appuyez avec vos mains pour les essorer un maximum. Réservez.",
+    "Épluchez les gousses d'ail et pressez-les. Lavez, séchez et hachez la menthe.",
+    "Dans un saladier, mettez les filaments de concombre égouttés, les yaourts, la menthe, l'ail, ajoutez une cuillère à soupe d'huile d'olive et assaisonnez avec le sel et le poivre. Mélangez et réservez au réfrigérateur jusqu'au moment de servir."
+   ],
+   "notes": null,
+   "source_url": null,
+   "ambiguous": false,
+   "source_text": "Tzatziki\nPour 6 personnes :\n- 2 gros concombres (ou 3 petits)\n- 2 yaourts grecs (soit 400 g de yaourt)\n- 1 cuillère à soupe d'huile d'olive\n- 1 cuillère à soupe de feuilles de menthe hachées (on peut mettre aussi de l'aneth ou ne pas mettre d'herbes du tout)\n- 4 gousses d'ail\n- 1 pincée de sel\n- 1 pincée de poivre\nPréparation\nEpluchez les concombres. Fendez-les en deux et à l'aide d'une petite cuillère, ôtez-en les graines puis râpez-les (grille fine). Mettez-les dans une passoire et appuyez avec vos mains pour les essorer un maximum. Réservez.\nEpluchez les gousses d'ail et pressez-les. Lavez, séchez et hachez la menthe.\nDans un saladier, mettez les filaments de concombre égouttés, les yaourts, la menthe, l'ail, ajoutez une cuillère à soupe d'huile d'olive et assaisonnez avec le sel et le poivre. Mélangez et réservez au réfrigérateur jusqu'au moment de servir.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "249b192c-9799-5c96-a059-2742ae36aa0f",
+   "title": "Taboulé libanais",
+   "servings": 4,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "salade",
+    "libanais",
+    "sans cuisson",
+    "été"
+   ],
+   "ingredients": [
+    {
+     "qty": 200,
+     "unit": "g",
+     "name": "tomates",
+     "note": null
+    },
+    {
+     "qty": 40,
+     "unit": "g",
+     "name": "boulgour",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": null,
+     "name": "oignon nouveau",
+     "note": null
+    },
+    {
+     "qty": 1.5,
+     "unit": "bouquet",
+     "name": "persil plat",
+     "note": null
+    },
+    {
+     "qty": 0.5,
+     "unit": "bouquet",
+     "name": "menthe",
+     "note": null
+    },
+    {
+     "qty": 1.5,
+     "unit": null,
+     "name": "citron",
+     "note": "pressé"
+    },
+    {
+     "qty": 4,
+     "unit": "c. à soupe",
+     "name": "huile d'olive",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "sel",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Rincez le boulgour, égouttez-le. Transférez-le dans un saladier, ajoutez le jus de citron, l'huile d'olive et laissez-le gonfler 15 minutes.",
+    "Coupez le bas des tiges de persil qui ne comportent pas de feuilles, on ne les utilise pas. Émincez très finement le persil au couteau. Hachez très finement les feuilles de menthe. Coupez les tomates en petits dés.",
+    "Mélangez le persil, la menthe, les dés de tomates et l'oignon émincé avec le boulgour, salez et servez sans attendre."
+   ],
+   "notes": null,
+   "source_url": "https://kuri.app/lNdRtmLc2Qb",
+   "ambiguous": false,
+   "source_text": "Taboulé libanais\nhttps://kuri.app/lNdRtmLc2Qb\nIngrédients pour 4 personnes\n200g de tomates\n40g de boulgour\n1 oignon nouveau\n1.5 bouquet de persil plat\n1/2 bouquet de menthe\n1.5 citron pressé\n4 cas d'huile d'olive\nSel\n\nPréparation:\nEtape 1\nRincez le boulgour égouttez le. Transférez le dans un saladier, ajoutez le jus de citron, l'huile d'olive et laissez le gonfler 15 minutes.\nEtape 2\nCoupez le bas des tiges de persil qui ne comportent pas de feuilles on ne les utilise pas. Emincez très finement le persil au couteau. Hachez très finement les feuilles de menthe. Coupez les tomates en petits dés.\nEtape 3\nMélangez le persil, la menthe, les dés de tomates et l'oignon émincé avec le boulgour, salez et servez sans attendre.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "f8eae9ef-46ec-5fe7-ab26-047497e0721e",
+   "title": "Feuille d'huître",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un lien (article sur la plante « huître potagère »), pas de recette.",
+   "source_url": "https://www.rustica.fr/choux-et-legumes-feuilles/l-huitre-potagere-mertensia-maritima,19238.html",
+   "ambiguous": true,
+   "source_text": "Feuille d'huitre\nhttps://www.rustica.fr/choux-et-legumes-feuilles/l-huitre-potagere-mertensia-maritima,19238.html",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "81a67763-1fe1-5389-a896-a684d82e91a5",
+   "title": "Sauce chien",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "sauce",
+    "piment"
+   ],
+   "ingredients": [
+    {
+     "qty": 2,
+     "unit": "branche",
+     "name": "jeunes pousses d'oignons",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "branche",
+     "name": "persil",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": null,
+     "name": "oignon",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "gousse",
+     "name": "ail",
+     "note": null
+    },
+    {
+     "qty": 0.5,
+     "unit": null,
+     "name": "piment fort",
+     "note": "ou 2 piments végétariens"
+    },
+    {
+     "qty": 3,
+     "unit": "c. à soupe",
+     "name": "huile",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "c. à café",
+     "name": "sel",
+     "note": null
+    },
+    {
+     "qty": 0.5,
+     "unit": null,
+     "name": "tomate",
+     "note": "émincée"
+    },
+    {
+     "qty": 150,
+     "unit": "ml",
+     "name": "eau bouillante",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Émincez et mélangez tous les ingrédients sauf l'eau.",
+    "Rajouter l'eau bouillante et mélanger pendant 2 min puis laisser reposer au moins 5 min avant de mettre au frigo."
+   ],
+   "notes": null,
+   "source_url": null,
+   "ambiguous": false,
+   "source_text": "Sauce chien\nIngredients\n- 2 branches de jeune pousses d'oignons,\n- 2 branches de persil,\n- 1 oignon,\n- 2 gousses d'ail,\n- 0.5 piment fort ou 2 piments végétariens,\n- 3 cuillères à soupe d'huile,\n- 1 cuillère à café de sel,\n- 0.5 tomate émincée\n- 150 ml d'eau bouillante\nProcédé\n- émincez et mélangez tous les ingrédients sauf l'eau\n- Rajouter l'eau bouillante et mélanger pendant 2 min puis laisser reposer au moins 5min avant de mettre au frigo",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "c9cfdfba-b548-5ee9-a683-115fb1eab227",
+   "title": "Khimo malgache",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un lien, pas de contenu.",
+   "source_url": "https://voyage-madagascar.org/khimo/",
+   "ambiguous": true,
+   "source_text": "Khimo Malgache\nhttps://voyage-madagascar.org/khimo/",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "369cec07-a884-57de-a87e-128ceb2157f2",
+   "title": "Nuoc mam",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "sauce",
+    "sans cuisson"
+   ],
+   "ingredients": [
+    {
+     "qty": 1,
+     "unit": "volume",
+     "name": "nuoc pure",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "volume",
+     "name": "eau",
+     "note": null
+    },
+    {
+     "qty": 0.5,
+     "unit": "volume",
+     "name": "vinaigre",
+     "note": "vin / cidre / riz"
+    },
+    {
+     "qty": 0.5,
+     "unit": "volume",
+     "name": "sucre en poudre",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "ail",
+     "note": "en tout petits morceaux"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "piment",
+     "note": "optionnel"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "carotte râpée",
+     "note": "optionnel"
+    }
+   ],
+   "steps": [],
+   "notes": null,
+   "source_url": null,
+   "ambiguous": false,
+   "source_text": "Nuoc mam\n- 1 volume nuoc pure\n- 3 volume eau\n- 0,5 volume vinaigre vin / cidre / riz\n- 0,5 volume sucre en poudre\n- Ail en tout petit morceau\n- Optionnel : Piment\n- Optionnel : Carotte râpée",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "a55c3565-3bbb-5969-a824-cd0ea9c66150",
+   "title": "Tiam tiam",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "porc",
+    "asiatique",
+    "four"
+   ],
+   "ingredients": [
+    {
+     "qty": null,
+     "unit": null,
+     "name": "échine de porc",
+     "note": "1/3, coupée en fine lamelle (largeur 1 petit doigt)"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "poitrine de porc",
+     "note": "2/3, coupée en fine lamelle (largeur 1 petit doigt)"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "ail",
+     "note": "beaucoup"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "sauce hoisin",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "citronnelle",
+     "note": "en poudre ou coupée en fine lamelle"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "épices 5 parfums",
+     "note": "poivre de Sichuan, fenouil, badiane, cannelle, clou de girofle"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "sauce soja",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "vermicelles de riz",
+     "note": "cuites puis rincées plusieurs fois à l'eau froide pour pas qu'elles collent"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "salade à très grandes feuilles",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "concombre",
+     "note": "en tranches"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "oignon rouge",
+     "note": "en fines tranches"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "ail",
+     "note": "coupé en fines tranches, pour l'accompagnement"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "basilic thaï",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "menthe",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "coriandre",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Viande — mélanger : 1/3 échine de porc et 2/3 poitrine de porc coupées en fine lamelle (largeur 1 petit doigt), beaucoup d'ail, sauce hoisin, citronnelle en poudre ou coupée en fine lamelle, épices 5 parfums (poivre de Sichuan, fenouil, badiane, cannelle, clou de girofle), sauce soja.",
+    "Cuire au four à 180 en remuant régulièrement jusqu'à ce que la viande soit bien grillée sur le dessus.",
+    "À côté : vermicelles de riz (cuites puis rincées plusieurs fois à l'eau froide pour pas qu'elles collent), salade à très grandes feuilles, concombre en tranches, oignon rouge en fines tranches, ail coupé en fines tranches, basilic thaï, menthe, coriandre."
+   ],
+   "notes": null,
+   "source_url": null,
+   "ambiguous": false,
+   "source_text": "Tiam tiam\nViande\n1. Mélanger :\n- 1/3 échine de porc Et 2/3 poitrine de porc coupé en fine lamelle (largeur 1 petit doigt)\n- Beaucoup Ail\n- Hoisin sauce\n- Citronnelle en poudre ou coupée en fine lamelle\n- Épice 5 parfums (Poivre de Sichuan fenouil badiane cannelle clou de girofle)\n- Sauce soja\n2. cuire au four à 180 en remuant régulièrement jusqu'à ce que la viande soit bien grillée sur le dessus\n\nÀ côté\n- Vermicelles de riz (cuites puis rincées plusieurs fois à l'eau froide pour pas qu'elles collent)\n- Salade à très grande feuilles\n- Concombre en tranche\n- Oignon rouge en fine tranche\n- Ail coupé en fine tranche\n- Basilic Thai\n- Menthe\n- Coriandre",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "146d6766-2ea4-5c3e-aa2a-d368ad1745f7",
+   "title": "Soupe chinoise au poulet",
+   "servings": 4,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "soupe",
+    "poulet",
+    "asiatique",
+    "robot"
+   ],
+   "ingredients": [
+    {
+     "qty": 320,
+     "unit": "g",
+     "name": "filets de poulet",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "cm",
+     "name": "racine de gingembre",
+     "note": null
+    },
+    {
+     "qty": 200,
+     "unit": "g",
+     "name": "carottes",
+     "note": null
+    },
+    {
+     "qty": 200,
+     "unit": "g",
+     "name": "poireau",
+     "note": null
+    },
+    {
+     "qty": 110,
+     "unit": "g",
+     "name": "oignon",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "g",
+     "name": "gousse d'ail",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "feuille",
+     "name": "combava séché",
+     "note": "facultatif"
+    },
+    {
+     "qty": 100,
+     "unit": "g",
+     "name": "vermicelles de soja",
+     "note": null
+    },
+    {
+     "qty": 40,
+     "unit": "g",
+     "name": "bouillon de poule",
+     "note": null
+    },
+    {
+     "qty": 150,
+     "unit": "cl",
+     "name": "eau",
+     "note": null
+    },
+    {
+     "qty": 5,
+     "unit": "cl",
+     "name": "sauce soja",
+     "note": null
+    },
+    {
+     "qty": 150,
+     "unit": "g",
+     "name": "champignons de Paris",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "cl",
+     "name": "huile",
+     "note": null
+    },
+    {
+     "qty": 20,
+     "unit": "g",
+     "name": "pousses de soja",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "basilic thaï",
+     "note": "quelques feuilles"
+    }
+   ],
+   "steps": [
+    "Dans le bol du robot muni du couteau hachoir Ultrablade, mettez l'ail et l'oignon épluchés et coupés en morceaux. Verrouillez le couvercle avec le bouchon et appuyez sur « Start ».",
+    "Remplacez le couteau hachoir Ultrablade par le mélangeur. Ajoutez l'huile, les carottes et le poireau émincés finement. Verrouillez le couvercle avec le bouchon et appuyez sur « Start ». (5 min à 130°)",
+    "Pelez et hachez le gingembre. Ajoutez-le dans le bol du robot.",
+    "Ajoutez l'eau, le bouillon, les feuilles de combava et le poulet coupé en petits morceaux.",
+    "Versez la sauce soja. Verrouillez le couvercle avec le bouchon et appuyez sur « Start ». (15 min à 95°)",
+    "Ajoutez les vermicelles et les champignons émincés. Verrouillez le couvercle avec le bouchon et appuyez sur « Start ». (5 min à 130°)",
+    "Ajoutez les pousses de soja et le basilic ciselé et servez."
+   ],
+   "notes": "Étapes écrites pour le robot cuiseur (couteau Ultrablade / mélangeur).",
+   "source_url": "https://moulinexfood.page.link/51wsdFUJHGuM8tgC8",
+   "ambiguous": false,
+   "source_text": "Soupe chinoise au poulet\nhttps://moulinexfood.page.link/51wsdFUJHGuM8tgC8\nIngrédients pour 4 personnes\n320 g de filets de poulet\n1 cm de racine de gingembre\n200 g de carottes\n200 g de poireau\n110 g d'oignon\n3 g de gousse d'ail\n2 feuilles de combava séchés (facultatif)\n100 g de vermicelles de soja\n40 g de bouillon de poule\n150 cl d'eau\n5 cl de sauce soja\n150 g champignons de Paris\n1 cl d'huile\n20 g de pousses de soja\nQuelques feuilles de basilic thaïe\nSynthèse :\nDans le bol du robot muni du couteau hachoir Ultrablade, mettez l'ail et l'oignon épluchés et coupés en morceaux. Verrouillez le couvercle avec le bouchon et appuyez sur 'Start'.\nRemplacez le couteau hachoir Ultrablade par le mélangeur. Ajoutez l'huile, les carottes et le poireau émincés finement. Verrouillez le couvercle avec le bouchon et appuyez sur 'Start'. (5min a 130°)\nPelez et hachez le gingembre. Ajoutez-le dans le bol du robot.\nAjoutez l'eau, le bouillon, les feuilles de combava et le poulet coupé en petits morceaux.\nVersez la sauce soja. Verrouillez le couvercle avec le bouchon et appuyez sur 'Start'. (15min a 95°)\nAjoutez les vermicelles et les champignons émincés. Verrouillez le couvercle avec le bouchon et appuyez sur 'Start'. (5min a 130°)\nAjoutez les pousses de soja et le basilic ciselé et servez.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "f6da54f3-6c86-5708-a599-df00598f521d",
+   "title": "Mijoté de poulet au chorizo",
+   "servings": 4,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "poulet",
+    "chorizo",
+    "mijoté",
+    "robot"
+   ],
+   "ingredients": [
+    {
+     "qty": 100,
+     "unit": "g",
+     "name": "oignon",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "g",
+     "name": "gousse d'ail",
+     "note": null
+    },
+    {
+     "qty": 200,
+     "unit": "g",
+     "name": "filets de poulet",
+     "note": null
+    },
+    {
+     "qty": 100,
+     "unit": "g",
+     "name": "chorizo",
+     "note": null
+    },
+    {
+     "qty": 100,
+     "unit": "g",
+     "name": "poivron rouge",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "branche",
+     "name": "thym",
+     "note": null
+    },
+    {
+     "qty": 10,
+     "unit": "cl",
+     "name": "vin blanc",
+     "note": null
+    },
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "tomates cerises",
+     "note": "entières"
+    },
+    {
+     "qty": 2,
+     "unit": "c. à café",
+     "name": "sucre",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "cl",
+     "name": "huile d'olive",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "brin",
+     "name": "persil",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "sel",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "poivre",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Dans le bol du robot muni du couteau hachoir Ultrablade, mettez l'oignon et l'ail pelés. Verrouillez le couvercle avec le bouchon et appuyez sur « Start ».",
+    "Remplacez le couteau hachoir Ultrablade par le mélangeur. Ajoutez le poulet, le chorizo coupé en rondelles et l'huile d'olive. Verrouillez le couvercle avec le bouchon et appuyez sur « Start ». (5 min à 130°)",
+    "Ajoutez le poivron rouge émincé en lanières, le thym, le persil, le vin blanc, les tomates cerises coupées en deux et le sucre.",
+    "Salez et poivrez. Verrouillez le couvercle avec le bouchon et appuyez sur « Start ». (20 min à 95°)",
+    "Servez chaud."
+   ],
+   "notes": "Étapes écrites pour le robot cuiseur (couteau Ultrablade / mélangeur).",
+   "source_url": "https://moulinexfood.page.link/yZgJdrBfwQuL3XGL6",
+   "ambiguous": false,
+   "source_text": "Mijote de poulet au chorizo\nhttps://moulinexfood.page.link/yZgJdrBfwQuL3XGL6\nIngrédients pour 4 personnes\n100 g d'oignon\n3 g de gousse d'ail\n200 g de filets de poulet\n100 g de chorizo\n100 g de poivron rouge\n2 branches de thym\n10 cl de vin blanc\n400 g de tomates cerises entières\n2 càc de sucre\n2 cl d'huile d'olive\n2 brins de persil\nSel, poivre\nSynthèse :\nDans le bol du robot muni du couteau hachoir Ultrablade, mettez l'oignon et l'ail pelés. Verrouillez le couvercle avec le bouchon et appuyez sur 'Start'.\nRemplacez le couteau hachoir Ultrablade par le mélangeur. Ajoutez le poulet, le chorizo coupé en rondelles et l'huile d'olive. Verrouillez le couvercle avec le bouchon et appuyez sur 'Start'. (5min a 130°)\nAjoutez le poivron rouge émincé en lanières, le thym, le persil, le vin blanc, les tomates cerises coupées en deux et le sucre.\nSalez et poivrez. Verrouillez le couvercle avec le bouchon et appuyez sur 'Start'. (20min a 95°)\nServez chaud.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "c3c5c69e-2d3a-565d-ac7b-42b7467454dc",
+   "title": "Pâtes au poulet & tomates cerises",
+   "servings": 4,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "pâtes",
+    "poulet",
+    "tomate"
+   ],
+   "ingredients": [
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "spaghetti",
+     "note": null
+    },
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "tomates cerises",
+     "note": null
+    },
+    {
+     "qty": 4,
+     "unit": null,
+     "name": "escalopes de poulet",
+     "note": null
+    },
+    {
+     "qty": 8,
+     "unit": "c. à soupe",
+     "name": "parmesan râpé",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "gousse",
+     "name": "ail",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "basilic",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Épluchez puis hachez l'ail finement.",
+    "Ciselez finement le basilic.",
+    "Dans une casserole d'eau bouillante salée, faites cuire les pâtes selon les indications du paquet. En fin de cuisson, prélevez l'équivalent d'une petite louche d'eau de cuisson par personne, puis égouttez les pâtes.",
+    "Pendant ce temps, faites chauffer un filet d'huile d'olive dans une poêle et ajoutez-y le poulet. Salez, poivrez et laissez cuire 4 à 5 minutes sur chaque face. Réservez.",
+    "Dans la même poêle, ajoutez un filet d'huile d'olive et faites revenir l'ail émincé 2 minutes, à feu doux.",
+    "Lavez les tomates cerises et ajoutez-les dans la poêle. Faites-les revenir 2 à 3 minutes. Salez et poivrez.",
+    "Versez l'eau de cuisson des pâtes dans la poêle, puis ajoutez-y les pâtes et le parmesan. Mélangez et laissez cuire 2 à 3 minutes supplémentaires.",
+    "Ajoutez le basilic, mélangez, puis enlevez la poêle du feu.",
+    "Coupez le poulet en tranches et servez-le dans les pâtes. C'est prêt."
+   ],
+   "notes": "Conseils : attention à l'assaisonnement, ça peut être un peu fade (ex : rajouter du concentré de tomate ou des épices).",
+   "source_url": "https://app.jow.com/EC0U?action=recipe&recipeId=64c3c646455c560eea66f559&source=jow",
+   "ambiguous": false,
+   "source_text": "Pâtes au poulet & tomates cerises\nhttps://app.jow.com/EC0U?action=recipe&recipeId=64c3c646455c560eea66f559&source=jow\nIngrédients pour 4 personnes\n400g de spaghetti\n400g de tomates cerises\n4 escalopes de poulet\n8 cas de parmesan râpé\n2 gousses d'ail\nBasilic\n\nPréparation\nÉtape 1\nÉpluchez puis hachez l'ail finement\nÉtape 2\nCiselez finement le basilic.\nÉtape 3\nDans une casserole d'eau bouillante salée, faites cuire les pâtes selon les indications du paquet. En fin de cuisson, prélevez l'équivalent d'une petite louche d'eau de cuisson par personne, puis égouttez les pâtes.\nÉtape 4\nPendant ce temps, faites chauffer un filet d'huile d'olive dans une poêle et ajoutez-y le poulet. Salez, poivrez et laissez cuire 4 à 5 minutes sur chaque face. Réservez.\nÉtape 5\nDans la même poêle, ajoutez un filet d'huile d'olive et faites revenir l'ail émincé 2 minutes, à feu doux.\nÉtape 6\nLavez les tomates cerises et ajoutez-les dans la poêle. Faites-les revenir 2 à 3 minutes. Salez et poivrez.\nÉtape 7\nVersez l'eau de cuisson des pâtes dans la poêle, puis ajoutez-y les pâtes et le parmesan. Mélangez et laissez cuire 2 à 3 minutes supplémentaires.\nÉtape 8\nAjoutez le basilic, mélangez, puis enlevez la poêle du feu.\nÉtape 9\nCoupez le poulet en tranches et servez-le dans les pâtes. C'est prêt\nconseils: attention à l'assaisonnement, ça peut être un peu fade (ex: rajouter du concentré de tomate ou des épices)",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "0d02e482-57b9-54d9-afc1-966e7f2b754c",
+   "title": "Spaghetti alle vongole",
+   "servings": 4,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "pâtes",
+    "fruits de mer",
+    "italien"
+   ],
+   "ingredients": [
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "spaghetti",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "kg",
+     "name": "palourdes",
+     "note": null
+    },
+    {
+     "qty": 4,
+     "unit": "gousse",
+     "name": "ail",
+     "note": null
+    },
+    {
+     "qty": 0.5,
+     "unit": null,
+     "name": "piment oiseau",
+     "note": null
+    },
+    {
+     "qty": 5,
+     "unit": "c. à soupe",
+     "name": "huile d'olive",
+     "note": null
+    },
+    {
+     "qty": 0.5,
+     "unit": "verre",
+     "name": "vin blanc sec",
+     "note": null
+    },
+    {
+     "qty": 0.5,
+     "unit": "bouquet",
+     "name": "persil plat",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": "pincée",
+     "name": "sel",
+     "note": "ou sel fin"
+    },
+    {
+     "qty": 1,
+     "unit": "pincée",
+     "name": "poivre",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Rincez les palourdes avec beaucoup d'eau, puis mettez-les dans un saladier. Ajoutez une demi-cuillère à café de gros sel et couvrez d'eau froide. Renouvelez l'opération trois fois, jusqu'à ce qu'il n'y ait plus de résidus dans les palourdes. Rincez-les de nouveau, égouttez-les. Hachez très finement le persil avec 2 gousses d'ail, réservez dans un bol.",
+    "Dans une grande poêle creuse, faites revenir l'ail restant avec le piment oiseau, et une petite cuillerée de persil et d'ail hachés. Ajoutez les palourdes, mouillez avec le vin blanc, couvrez et laissez cuire environ 10 minutes en remuant de temps en temps, jusqu'à ce que toutes les palourdes s'ouvrent.",
+    "Une fois cuites, retirez les palourdes et filtrez leur jus de cuisson. Remettez le jus dans la poêle, faites-le cuire 5 minutes, à ce qu'il réduise d'un tiers. Gardez-le ensuite dans la poêle sur feu éteint. Pendant ce temps, ôtez la coque de la moitié des palourdes et gardez-en la moitié restante avec leur coque. Gardez toutes les palourdes (avec et sans coque) dans un saladier couvert.",
+    "En parallèle, portez à ébullition un grand volume d'eau dans une casserole haute. Dès l'ébullition salez l'eau, puis versez-y les spaghetti. Mélangez-les rapidement avec une cuillère en bois, puis laissez-les cuire pendant le temps indiqué sur le paquet (généralement les spaghetti cuisent en 9 minutes). Dès que les spaghetti sont cuits, égouttez-les « al dente » dans une passoire et versez-les dans la poêle avec le jus de cuisson des palourdes.",
+    "Remuez sur feu doux, à ce que les spaghetti s'imbibent de jus de cuisson des palourdes, ajoutez toutes les palourdes et le restant d'ail et persil hachés. Mélangez le tout quelques secondes encore à feu doux, ajoutez un tour de poivre du moulin, un filet d'huile d'olive et servez aussitôt."
+   ],
+   "notes": null,
+   "source_url": "https://www.750g.com/spaghetti-alle-vongole-pates-aux-palourdes-r205997.htm",
+   "ambiguous": false,
+   "source_text": "Spaghetti alle vongole\nhttps://www.750g.com/spaghetti-alle-vongole-pates-aux-palourdes-r205997.htm\nIngrédients pour 4 personnes\n400 g de spaghetti\n2kg de palourdes\n4 gousses d'ail\n½ piment oiseau\n5 c. à s. d'huile d'olive\n½ verre de vin blanc sec\n½ bouquet de persil plat\n1 pincée de sel ou sel fin\n1 pincée de poivre\n\nPréparation:\nÉtape 1\nRincez les palourdes avec beaucoup d'eau, puis mettez-les dans un saladier. Ajoutez une demie-cuillère à café de gros sel et couvrez d'eau froide.\nRenouvelez l'opération trois fois, jusqu'à ce qu'il n'ait plus de résidus dans les palourdes. Rincez-les de nouveau, égouttez-les.\nHachez très finement le persil avec 2 gousses d'ail, réservez dans un bol.\n\nÉtape 2\nDans une grande poêle creuse, faites revenir l'ail restant avec le piment oiseau, et une petite cuillerée de persil et d'ail hachés.\nAjoutez les palourdes, mouillez avec le vin blanc, couvrez et laissez cuire environ 10 minutes en remuant de temps en temps, jusqu'à ce que toutes les palourdes s'ouvrent.\n\nÉtape 3\nUne fois cuites, retirez les palourdes et filtrez leur jus de cuisson.\nRemettez le jus dans la poêle faites-le cuire 5 minutes, à ce qu'il réduise d'un tiers. Gardez-le ensuite dans la poêle sur feu éteint.\nPendant ce temps, ôtez la coque de la moitié des palourdes et gardez-en la moitié restante avec leur coque. Gardez toutes les palourdes (avec et sans coque) dans un saladier couvert.\n\nÉtape 4\nEn parallèle, portez à ébullition un grand volume d'eau dans une casserole haute. Dès l'ébullition salez l'eau, puis versez-y les spaghetti.\nMélangez-les rapidement avec une cuillère en bois, puis laissez-les cuire pendant le temps indiqué sur le paquet (généralement les spaghetti cuisent en 9 minutes).\nDès que les spaghetti sont cuits égouttez-les \"al dente\" dans une passoire et versez-les dans la poêle avec le jus de cuisson des palourdes.\nÉtape 5\nRemuez sur feu doux, à ce que les spaghetti s'imbibent de jus de cuisson des palourdes, ajoutez toutes les palourdes et le restant ail et persil hachés.\nMélangez le tout quelques secondes encore à feu doux, ajoutez un tour de poivre du moulin un filet d'huile d'olive et servez aussitôt.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "bfe0ac94-d522-5903-a21c-c9fc7dcbcd30",
+   "title": "Quiche poivrons & chorizo",
+   "servings": 6,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "quiche",
+    "chorizo",
+    "four"
+   ],
+   "ingredients": [
+    {
+     "qty": 300,
+     "unit": "g",
+     "name": "poivrons",
+     "note": null
+    },
+    {
+     "qty": 100,
+     "unit": "g",
+     "name": "chorizo",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": null,
+     "name": "œufs",
+     "note": null
+    },
+    {
+     "qty": 100,
+     "unit": "ml",
+     "name": "lait",
+     "note": null
+    },
+    {
+     "qty": 100,
+     "unit": "ml",
+     "name": "crème liquide",
+     "note": null
+    },
+    {
+     "qty": 100,
+     "unit": "g",
+     "name": "tomme",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": null,
+     "name": "pâte brisée",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Préchauffez le four à 180 °C. Placez la pâte dans votre moule à tarte (le nôtre fait 31 cm de diamètre) et piquez-la à l'aide d'une fourchette. Une fois le four chaud, faites pré-cuire votre pâte pendant 5 minutes.",
+    "Pendant ce temps, coupez les poivrons et le chorizo très finement. Râpez la tomme.",
+    "Dans un récipient, ajoutez : les œufs, le lait, la crème, la tomme râpée, sel, poivre et fouettez le tout énergiquement.",
+    "Une fois la pâte pré-cuite, sortez-la du four, répartissez les poivrons dans le fond avec le chorizo, puis versez l'appareil à quiche par-dessus.",
+    "Enfournez votre quiche pendant 45 minutes à 180 °C. Laissez reposer 10 minutes avant de déguster, c'est prêt ! À accompagner d'une salade verte."
+   ],
+   "notes": "Conseils : possibilité de précuire le mélange chorizo/poivron pour que ce soit moins gras, mais dans ce cas ne cuire la quiche que 25 min.",
+   "source_url": "https://app.jow.com/EC0U?action=recipe&recipeId=5eda574f67aaed038d640e54&source=jow",
+   "ambiguous": false,
+   "source_text": "Quiche poivrons & chorizo\nhttps://app.jow.com/EC0U?action=recipe&recipeId=5eda574f67aaed038d640e54&source=jow\nIngrédients pour une quiche 6 personnes\n300g de poivrons\n100g de chorizo\n3 oeufs\n100ml de lait\n100ml de crème liquide\n100g de tomme\n1 pâte brisée\nPréparation:\nEtape 1 : Préchauffez le four à 180°C. Placez la pâte dans votre moule à tarte (le nôtre fait 31 cm de diamètre) et piquez-la à l'aide d'une fourchette. Une fois le four chaud, faites pré-cuire votre pâte pendant 5 minutes.\nÉtape 2 : Pendant ce temps, coupez les poivrons et le chorizo très finement. Râpez la tomme.\nÉtape 3 : Dans un récipient, ajoutez : les oeufs, le lait, la crème, la tomme râpée, sel, poivre et fouettez le tout énergiquement.\nÉtape 4 : Une fois la pâte pré-cuite, sortez-la du four, répartissez les poivrons dans le fond avec le chorizo, puis versez l'appareil à quiche par dessus.\nÉtape 5 : Enfournez votre quiche pendant 45 minutes à 180°C. Laissez reposer 10 minutes avant de déguster, c'est prêt ! À accompagner d'une salade verte.\nConseils: possibilité de précuire le mélange chorizo/poivron pour que ce soit moins gras mais dans ce cas ne cuire la quiche que 25min",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "6f437174-99f3-58f3-a361-400236eab4c3",
+   "title": "Salade fenouil orange radis",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "salade",
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Titre du lien : « Sicilian winter salad ».\nImport Notion — ambigu : Seulement un lien (Jow), pas de contenu.",
+   "source_url": "https://app.jow.com/EC0U?action=recipe&recipeId=5bfbd649dbb15c29fea3f45f&source=jow",
+   "ambiguous": true,
+   "source_text": "Salade fenouil orange radis\nSicilian winter salad : https://app.jow.com/EC0U?action=recipe&recipeId=5bfbd649dbb15c29fea3f45f&source=jow",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "82a266db-2862-5951-ad64-e6e82368902e",
+   "title": "Salade lentilles feta",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "salade",
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Titre du lien : « Italian lentil salad ».\nImport Notion — ambigu : Seulement un lien (Jow), pas de contenu.",
+   "source_url": "https://app.jow.com/EC0U?action=recipe&recipeId=5ede1926e86756246cded5f3&source=jow",
+   "ambiguous": true,
+   "source_text": "Salade lentilles feta\nItalian lentil salad : https://app.jow.com/EC0U?action=recipe&recipeId=5ede1926e86756246cded5f3&source=jow",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "e61ddffa-1956-52c7-a7ec-153ba4540911",
+   "title": "Salade nectarines rôties, feta, roquette",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "salade",
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Titre du lien : « Recette salade nectarines rôties et feta - Mon Marché ».\nImport Notion — ambigu : Seulement un lien, pas de contenu.",
+   "source_url": "https://www.mon-marche.fr/recette/la-salade-de-nectarines-roties-feta-et-roquette",
+   "ambiguous": true,
+   "source_text": "Salade nectarine rôti fêta roquette\nRecette salade nectarines rôties et feta - Mon Marché : https://www.mon-marche.fr/recette/la-salade-de-nectarines-roties-feta-et-roquette",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "c3a2780e-8346-510d-a4e0-b0c0eb07ac86",
+   "title": "Salade courgettes nectarine",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "salade",
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Titre du lien : « Nectarine & Zucchini Salad ».\nImport Notion — ambigu : Seulement un lien (Jow), pas de contenu.",
+   "source_url": "https://app.jow.com/EC0U?action=recipe&recipeId=5b6062bc0e95e00014536fcc&source=jow",
+   "ambiguous": true,
+   "source_text": "Salade courgettes nectarine\nNectarine & Zucchini Salad : https://app.jow.com/EC0U?action=recipe&recipeId=5b6062bc0e95e00014536fcc&source=jow",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "f16d9feb-2236-5d61-a8da-bbefaf45a81c",
+   "title": "Bucatini bisque de homard & gambas",
+   "servings": 4,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "pâtes",
+    "fruits de mer",
+    "gambas"
+   ],
+   "ingredients": [
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "bucatini",
+     "note": null
+    },
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "bisque de homard",
+     "note": null
+    },
+    {
+     "qty": 10,
+     "unit": "cl",
+     "name": "cognac",
+     "note": null
+    },
+    {
+     "qty": 20,
+     "unit": null,
+     "name": "gambas",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": null,
+     "name": "échalote",
+     "note": null
+    },
+    {
+     "qty": 1,
+     "unit": null,
+     "name": "oignon",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "gousse",
+     "name": "ail",
+     "note": null
+    },
+    {
+     "qty": 15,
+     "unit": "cl",
+     "name": "vin blanc sec",
+     "note": null
+    },
+    {
+     "qty": 400,
+     "unit": "g",
+     "name": "coulis de tomates",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "persil plat",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "huile d'olive",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "sel",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "poivre",
+     "note": null
+    }
+   ],
+   "steps": [
+    "Dans une casserole faites chauffer un filet d'huile d'olive. Ajoutez l'oignon, le céleri, l'ail et l'échalote, faites-les revenir 4 à 5 minutes.",
+    "Ajoutez le cognac et le vin blanc, faites bouillir 2 minutes. Ajoutez la sauce tomate et la bisque de homard. Salez, poivrez. Portez à ébullition, baissez le feu et laissez mijoter à découvert 40 minutes.",
+    "Faites cuire les pâtes, al dente, dans un grand volume d'eau salée.",
+    "Pendant ce temps, faites chauffer un filet d'huile dans une poêle. Faites sauter les gambas 1 minute à feu vif. Salez, poivrez. Ajoutez l'ail et un peu de persil. Poursuivez la cuisson une petite minute.",
+    "Égouttez les pâtes, ajoutez la sauce et les gambas, parsemez de persil haché. C'est prêt."
+   ],
+   "notes": "L'étape 1 mentionne du céleri, qui n'apparaît pas dans la liste d'ingrédients d'origine.",
+   "source_url": "https://kuri.app/NiB8Rh5c2Qb",
+   "ambiguous": false,
+   "source_text": "Bucatini bisque de homard & gambas\nhttps://kuri.app/NiB8Rh5c2Qb\nIngrédients pour 4\n400g de bucatini\n400g bisque de homard\n10cl de cognac\n20 gambas\n1 echalote\n1 oignon\n3 gousses d'ail\n15cl de vin blanc sec\n400g de coulis de tomates\nPersil plat\nHuile d'olive\nSel\nPoivre\n\nPréparation:\nEtape 1\nDans une casserole faites chauffer un filet d'huile d'olive. Ajoutez l'oignon, le céleri, l'ail et l'échalote, faites les revenir 4 à 5 minutes.\nEtape 2\nAjoutez le cognac et le vin blanc, faites bouillir 2 minutes. Ajoutez la sauce tomate et la bisque de homard. Salez, poivrez.\nPortez à ébullition, baissez le feu et laissez mijoter à découvert 40 minutes.\nEtape 3\nFaites cuire les pâtes, al dente, dans un grand volume d'eau salée.\nEtape 4\nPendant ce temps, faites chauffer un filet d'huile dans une poêle. Faites sauter les gambas 1 minute à feu vif. Salez, poivrez.\nAjoutez l'ail et un peu de persil. Poursuivez la cuisson une petite minute.\nEtape 5\nEgouttez les pâtes, ajoutez la sauce et les gambas, parsemez de persil haché. C'est prêt.",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "46e3ac21-d47e-5709-a974-3e849b370866",
+   "title": "Penne au saumon",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre (marqué 🖍️ dans Notion : à écrire).",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "🖍️ Penne au saumon",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "6054df4d-ec70-5dd9-a942-29373c2bc79f",
+   "title": "Risotto de coquillettes au jambon",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre (marqué 🖍️ dans Notion : à écrire).",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "🖍️ risotto de coquillettes au jambon",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "0a563e51-7a3c-5100-af8c-142fcd7b5c1e",
+   "title": "Porc au caramel",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre (marqué 🖍️ dans Notion : à écrire).",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "🖍️ porc au caramel",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "dde63e60-40b2-5b9c-a307-aba028a86d14",
+   "title": "Aubergines asiatiques",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre (marqué 🖍️ dans Notion : à écrire).",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "🖍️ aubergines asiatiques",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "5b4b7159-cf32-5ec3-ac7e-133917b142c7",
+   "title": "Couscous",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre (marqué 🖍️ dans Notion : à écrire).",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "🖍️ couscous",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "2733b2c7-d096-5886-afa1-9e6c1c9f69b6",
+   "title": "Rougail saucisse",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre (marqué 🖍️ dans Notion : à écrire).",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "🖍️ rougail saucisse",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "39299c51-b5e0-5ee9-aff2-3034e14ef6e7",
+   "title": "Poulet au curry Martini",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre (marqué 🖍️ dans Notion : à écrire).",
+   "source_url": null,
+   "ambiguous": true,
+   "source_text": "🖍️ poulet au curry Martini",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "a7212d7c-c7e8-59b4-a1ad-e7b68aed0e4c",
+   "title": "Côtes de porc / Choï Sum",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Import Notion — ambigu : Seulement un titre et un lien (marqué 🖍️ dans Notion).",
+   "source_url": "https://www.peko-peko.fr/recettes/baizhuo-caixin/",
+   "ambiguous": true,
+   "source_text": "🖍️ Côtes de porc/Choï Sum\nhttps://www.peko-peko.fr/recettes/baizhuo-caixin/",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "97c1adfb-9a12-5726-a036-be899e7daa5b",
+   "title": "Poêlée d'igname aux lardons",
+   "servings": null,
+   "prep_min": null,
+   "cook_min": null,
+   "tags": [
+    "à compléter"
+   ],
+   "ingredients": [],
+   "steps": [],
+   "notes": "Titre du lien : « Recette Igname poêlé aux lardons - Grand Frais ».\nImport Notion — ambigu : Seulement un titre et un lien (marqué 🖍️ dans Notion).",
+   "source_url": "https://www.grandfrais.com/recettes/igname-poele-aux-lardons",
+   "ambiguous": true,
+   "source_text": "🖍️ Poêlée d'igname lardons\nRecette Igname poêlé aux lardons - Grand Frais : https://www.grandfrais.com/recettes/igname-poele-aux-lardons",
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  }
+ ],
+ "recipe_logs": [],
+ "techniques": [
+  {
+   "id": "4424d6d6-633e-535b-a70f-43ea7885c15b",
+   "title": "Ciseler un oignon",
+   "description": "Couper un oignon en petits dés réguliers, rapidement et sans larmes (ou presque). Sert de base à la plupart des plats mijotés et des sauces.",
+   "steps": [
+    "Couper l'oignon en deux par la racine, éplucher chaque moitié en gardant la racine : c'est elle qui tient les couches ensemble.",
+    "Poser la moitié à plat. Faire des incisions horizontales vers la racine sans la traverser.",
+    "Faire des incisions verticales, parallèles, de la pointe vers la racine, toujours sans la traverser.",
+    "Trancher perpendiculairement : les dés tombent tout seuls. Jeter la racine."
+   ],
+   "pitfalls": [
+    "Couper la racine dès le début : l'oignon se défait et les dés sont irréguliers.",
+    "Un couteau mal affûté écrase les cellules et fait pleurer davantage."
+   ],
+   "tags": [
+    "découpe",
+    "base"
+   ],
+   "is_example": true,
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "b59d78ba-03c3-55bf-aaeb-561a1ad9c259",
+   "title": "Cuire des pâtes al dente",
+   "description": "Des pâtes fermes sous la dent, qui finissent de cuire dans la sauce. Utile pour [[Spaghetti alle vongole]] et [[Pâtes au poulet & tomates cerises]].",
+   "steps": [
+    "Un grand volume d'eau (environ 1 litre pour 100 g de pâtes), porté à forte ébullition.",
+    "Saler franchement à l'ébullition (environ 10 g par litre) : c'est la seule occasion d'assaisonner les pâtes elles-mêmes.",
+    "Verser les pâtes, remuer dans la première minute pour qu'elles ne collent pas.",
+    "Goûter 1 à 2 minutes avant le temps indiqué sur le paquet : la pâte doit résister un peu au centre.",
+    "Prélever une louche d'eau de cuisson avant d'égoutter, puis finir la cuisson 1 à 2 minutes dans la sauce avec un peu de cette eau."
+   ],
+   "pitfalls": [
+    "Rincer les pâtes : cela enlève l'amidon qui lie la sauce.",
+    "Mettre de l'huile dans l'eau : inutile, et la sauce accroche moins.",
+    "Égoutter à fond sans garder d'eau de cuisson : la sauce sera sèche."
+   ],
+   "tags": [
+    "cuisson",
+    "pâtes",
+    "base"
+   ],
+   "is_example": true,
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "ceeb5dcb-b432-50e9-a56b-b67420885776",
+   "title": "Déglacer",
+   "description": "Récupérer les sucs caramélisés au fond d'une poêle ou d'une casserole avec un liquide (vin, alcool, bouillon, eau) pour en faire la base d'une sauce. C'est ce que fait l'étape au cognac et vin blanc de [[Bucatini bisque de homard & gambas]].",
+   "steps": [
+    "Après avoir saisi viande, crustacés ou aromates, retirer l'excès de gras mais garder les sucs bruns au fond.",
+    "Verser le liquide (2 à 10 cl) sur feu vif : il bout immédiatement.",
+    "Gratter le fond avec une spatule en bois pour décoller tous les sucs.",
+    "Laisser réduire de moitié avant d'ajouter le reste de la sauce."
+   ],
+   "pitfalls": [
+    "Déglacer une poêle brûlée (sucs noirs) : la sauce sera amère.",
+    "Utiliser un vin qu'on ne boirait pas : son défaut se concentre en réduisant."
+   ],
+   "tags": [
+    "sauce",
+    "base"
+   ],
+   "is_example": true,
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "77e3b5b7-c796-5f32-a3e2-56058499f165",
+   "title": "Faire dégorger des coquillages",
+   "description": "Débarrasser palourdes, coques ou moules de leur sable avant cuisson. Indispensable pour [[Spaghetti alle vongole]].",
+   "steps": [
+    "Rincer les coquillages à l'eau froide et jeter ceux qui sont cassés ou qui restent ouverts quand on les tapote.",
+    "Les mettre dans un saladier d'eau froide salée (environ 30 g de sel par litre, comme la mer).",
+    "Laisser reposer 20 à 30 minutes au frais : ils recrachent leur sable.",
+    "Sortir les coquillages à la main (ne pas verser le saladier : le sable retomberait dessus), changer l'eau et recommencer une ou deux fois.",
+    "Rincer une dernière fois et égoutter."
+   ],
+   "pitfalls": [
+    "Eau non salée : les coquillages se referment et ne dégorgent pas.",
+    "Trop longtemps dans l'eau (plus d'une heure) : ils s'épuisent et meurent."
+   ],
+   "tags": [
+    "préparation",
+    "fruits de mer"
+   ],
+   "is_example": true,
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "d6dbfc47-bcd7-540e-a10f-5a7abacf900e",
+   "title": "Roux et béchamel",
+   "description": "Le roux (beurre + farine cuits ensemble) épaissit les sauces. Mouillé au lait, il devient béchamel ; au bouillon, velouté.",
+   "steps": [
+    "Fondre 40 g de beurre à feu doux, ajouter 40 g de farine et cuire 2 minutes en remuant : le mélange mousse et sent le biscuit (roux blanc).",
+    "Verser 50 cl de lait froid d'un coup, fouetter énergiquement pour éviter les grumeaux.",
+    "Porter à frémissement en remuant sans arrêt jusqu'à épaississement (3 à 5 minutes).",
+    "Assaisonner : sel, poivre, muscade."
+   ],
+   "pitfalls": [
+    "Lait chaud sur roux chaud : grumeaux garantis. L'un des deux doit être froid.",
+    "Arrêter de remuer : ça attache et brûle au fond."
+   ],
+   "tags": [
+    "sauce",
+    "base"
+   ],
+   "is_example": true,
+   "photo_url": null,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  }
+ ],
+ "drinks": [
+  {
+   "id": "549e70c3-8a4b-5540-a80b-0aa61c3c69de",
+   "kind": "wine",
+   "name": "Irancy Fontaine Goby",
+   "type": null,
+   "region": "Irancy",
+   "vintage": 2019,
+   "notes": null,
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "feab82e5-b9af-590c-a468-51f95455858a",
+   "kind": "wine",
+   "name": "Sciaccarellu « Sempre Contentu » – Domaine Giacometti",
+   "type": "sciaccarellu",
+   "region": null,
+   "vintage": 2021,
+   "notes": null,
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "cb9211d6-155d-5c52-abfa-482f6a8141d3",
+   "kind": "wine",
+   "name": "Vosne-Romanée",
+   "type": null,
+   "region": "Vosne-Romanée",
+   "vintage": null,
+   "notes": "Goûté chez Meiji.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "fff7390e-a9ac-521a-a280-7035f44ab60b",
+   "kind": "wine",
+   "name": "Prunelart doux",
+   "type": "doux",
+   "region": null,
+   "vintage": 2020,
+   "notes": "Goûté chez Meiji.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "4cc5949d-e916-502a-af29-cbc9c70f9cf3",
+   "kind": "wine",
+   "name": "Fumey-Chatelain Arbois",
+   "type": null,
+   "region": "Arbois",
+   "vintage": 2017,
+   "notes": "Goûté au Vaisseau (Cachot).",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "ca68459d-c1c0-51c0-a45c-730595f4d877",
+   "kind": "wine",
+   "name": "Inopia rouge – Rotem et Mounir",
+   "type": "rouge",
+   "region": null,
+   "vintage": 2018,
+   "notes": "Goûté au Vaisseau (Cachot).",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "1aac912a-5bba-58fe-ada0-dabc72303ddf",
+   "kind": "spirit",
+   "name": "Hampden Estate 8 ans",
+   "type": "rhum",
+   "region": null,
+   "vintage": null,
+   "notes": "Goûté au Vaisseau (Cachot).",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "5ae0fdea-e141-5ae6-ad41-6e7fe69553e0",
+   "kind": "wine",
+   "name": "L'Arjolle Paradoxe",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Le Bouclier de Bacchus.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "3ea3d444-cee2-5fcf-a4b3-569b5f085eed",
+   "kind": "wine",
+   "name": "Domaine de Vénus – L'Effrontée",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Le Bouclier de Bacchus.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "72f74ba8-417a-5b2c-aa55-31290441688a",
+   "kind": "wine",
+   "name": "Le Versant – Loulou et Caroline",
+   "type": null,
+   "region": null,
+   "vintage": 2021,
+   "notes": "Le Bouclier de Bacchus.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "7cae6808-663d-5821-abb0-4ca764f8cd0a",
+   "kind": "wine",
+   "name": "Domaine de Nigri",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Noté sous « Macron » dans Notion.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "e87e8069-4839-58fb-aa0d-f944dda77083",
+   "kind": "wine",
+   "name": "Domaine Pélaquié",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Grand Tasting Louvre.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "43d44224-e846-5681-a1ea-408375e20cd7",
+   "kind": "wine",
+   "name": "Cuvée Amandine – Saint-Joseph",
+   "type": null,
+   "region": "Saint-Joseph",
+   "vintage": 2024,
+   "notes": "Grand Tasting Louvre.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "695c9fe9-c5c7-5ddd-a075-dab1038c1d6d",
+   "kind": "wine",
+   "name": "Château du Moulin-à-Vent – La Rochelle",
+   "type": null,
+   "region": "Moulin-à-Vent",
+   "vintage": 2023,
+   "notes": "Grand Tasting Louvre.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "83e2102e-e805-5300-a506-af2b8af0d269",
+   "kind": "wine",
+   "name": "Domaine Faiveley – Mercurey Vieilles Vignes",
+   "type": null,
+   "region": "Mercurey",
+   "vintage": 2023,
+   "notes": "Grand Tasting Louvre.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "dc82cde4-eb51-51ae-a4e3-e16f8ad912ee",
+   "kind": "wine",
+   "name": "Château Mont-Redon – Châteauneuf-du-Pape",
+   "type": null,
+   "region": "Châteauneuf-du-Pape",
+   "vintage": 2015,
+   "notes": "Grand Tasting Louvre.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "48467fc4-3a43-5c09-a029-50812e7e05f2",
+   "kind": "wine",
+   "name": "Château Bélair-Monange – Premier Grand Cru Classé Saint-Émilion",
+   "type": null,
+   "region": "Saint-Émilion",
+   "vintage": 2019,
+   "notes": "Grand Tasting Louvre.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "e3594eb9-76ff-52d9-aaeb-3eda608c3b3e",
+   "kind": "cocktail",
+   "name": "Entier",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Dosages non notés dans Notion.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": true,
+   "ingredients": [
+    {
+     "qty": null,
+     "unit": null,
+     "name": "Chartreuse jaune",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "Aperol",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "mezcal",
+     "note": null
+    }
+   ],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "3983a2a1-b37e-51ef-a076-817551a8fc7f",
+   "kind": "cocktail",
+   "name": "Perchoir Ménilmontant",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Dosages non notés dans Notion.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": true,
+   "ingredients": [
+    {
+     "qty": null,
+     "unit": null,
+     "name": "mezcal",
+     "note": "Vida"
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "sirop de piment maison",
+     "note": null
+    }
+   ],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "cfa9c863-e544-5871-adc0-67962ba12739",
+   "kind": "cocktail",
+   "name": "Mini Guinness",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Aucun détail dans Notion.",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": true,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "869d5f3b-d29f-57be-a576-25d9febfa3d0",
+   "kind": "cocktail",
+   "name": "Spritz PSG",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Dans Notion, seulement une photo (non importée).",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": false,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "9778670a-aaaa-5e24-aaff-42e2e8d420fd",
+   "kind": "wine",
+   "name": "Chinon rouge (exemple)",
+   "type": "rouge",
+   "region": "Loire",
+   "vintage": 2020,
+   "notes": "Fiche d'exemple : montre la gestion de cave (stock, apogée, « à boire avant »). À adapter ou supprimer.",
+   "stock": 2,
+   "peak_from": 2024,
+   "peak_to": 2030,
+   "drink_before": "2031-12-31",
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": true,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "895dc21f-7865-5ecf-ab23-4266ff6d2df3",
+   "kind": "spirit",
+   "name": "Gin London Dry (exemple)",
+   "type": "gin",
+   "region": null,
+   "vintage": null,
+   "notes": "Fiche d'exemple. En stock, donc compté automatiquement dans « Mon bar ».",
+   "stock": 1,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": true,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "cd1c5c38-d496-581b-adb6-13e5d4b3d153",
+   "kind": "spirit",
+   "name": "Campari (exemple)",
+   "type": "bitter",
+   "region": null,
+   "vintage": null,
+   "notes": "Fiche d'exemple. En stock, donc compté automatiquement dans « Mon bar ».",
+   "stock": 1,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [],
+   "method": null,
+   "photo_url": null,
+   "is_example": true,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "1b975f5c-3386-5418-a071-51f42aa2cb08",
+   "kind": "cocktail",
+   "name": "Negroni",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Fiche d'exemple (dosages classiques). Avec le gin et le Campari d'exemple en cave, il ne manque que le vermouth : c'est le cas « à un ingrédient près ».",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [
+    {
+     "qty": 3,
+     "unit": "cl",
+     "name": "gin",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "cl",
+     "name": "Campari",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "cl",
+     "name": "vermouth rouge",
+     "note": null
+    }
+   ],
+   "method": "Dans un verre old fashioned rempli de glaçons, verser les trois ingrédients et remuer à la cuillère 20 secondes. Garnir d'un zeste d'orange.",
+   "photo_url": null,
+   "is_example": true,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "6e0f1945-fbaa-5a58-ac81-7b3af6fca4c0",
+   "kind": "cocktail",
+   "name": "Mojito",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Fiche d'exemple (dosages classiques).",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [
+    {
+     "qty": 5,
+     "unit": "cl",
+     "name": "rhum blanc",
+     "note": null
+    },
+    {
+     "qty": 3,
+     "unit": "cl",
+     "name": "jus de citron vert",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "c. à café",
+     "name": "sucre de canne",
+     "note": null
+    },
+    {
+     "qty": 6,
+     "unit": "feuille",
+     "name": "menthe",
+     "note": null
+    },
+    {
+     "qty": null,
+     "unit": null,
+     "name": "eau gazeuse",
+     "note": "pour compléter"
+    }
+   ],
+   "method": "Piler doucement la menthe avec le sucre et le citron vert dans un verre highball, ajouter le rhum, remplir de glace pilée, compléter d'eau gazeuse et remuer.",
+   "photo_url": null,
+   "is_example": true,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "119833aa-3f80-5321-a657-43675aaf359f",
+   "kind": "cocktail",
+   "name": "Spritz",
+   "type": null,
+   "region": null,
+   "vintage": null,
+   "notes": "Fiche d'exemple (dosages classiques). À comparer avec [[Spritz PSG]].",
+   "stock": 0,
+   "peak_from": null,
+   "peak_to": null,
+   "drink_before": null,
+   "is_shot": false,
+   "ingredients": [
+    {
+     "qty": 6,
+     "unit": "cl",
+     "name": "prosecco",
+     "note": null
+    },
+    {
+     "qty": 4,
+     "unit": "cl",
+     "name": "Aperol",
+     "note": null
+    },
+    {
+     "qty": 2,
+     "unit": "cl",
+     "name": "eau gazeuse",
+     "note": null
+    }
+   ],
+   "method": "Dans un grand verre à vin rempli de glaçons : prosecco, puis Aperol, puis eau gazeuse. Une tranche d'orange.",
+   "photo_url": null,
+   "is_example": true,
+   "created_by": null,
+   "created_at": "2026-09-27T09:00:00Z",
+   "updated_at": "2026-09-27T09:00:00Z"
+  }
+ ],
+ "bar_items": [],
+ "fridge_items": [],
+ "pantry_items": [
+  {
+   "id": "a322e893-4a9a-5182-a1f6-7633885679e9",
+   "name": "sel",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "a6479e63-137c-5029-a5f2-11d51edd44ef",
+   "name": "poivre",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "ac4ed587-9811-5cac-aa93-42702f5a9e16",
+   "name": "huile d'olive",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "a674209f-e749-519e-a405-d3860a46ef88",
+   "name": "huile",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "ba8e1ac2-5508-5510-a198-ac0587e038ef",
+   "name": "farine",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "74dbf6ce-1fdc-5801-abb1-b4078c15eb2d",
+   "name": "sucre",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "60e5cacc-502d-59de-a52a-93665a1e9c4d",
+   "name": "beurre",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "47fb4a2b-a326-539f-aae8-ef5701a68df4",
+   "name": "vinaigre",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "28c9e8c5-3e8c-57bf-ae0e-d21806116d18",
+   "name": "origan",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "5452ef48-3e8f-54e9-aec0-052ca8e3c834",
+   "name": "thym",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "bfa1ef8e-7c72-5f47-ae63-cfacd526869b",
+   "name": "paprika",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "8875f9dd-01a7-5821-ac40-cf12838acb59",
+   "name": "cumin",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "10dd97a2-45e6-5a24-abcf-f3a1f9f6ab78",
+   "name": "maïzena",
+   "created_at": "2026-09-27T09:00:00Z"
+  },
+  {
+   "id": "7b985d2f-a76c-5692-a9c1-771457e3b146",
+   "name": "eau",
+   "created_at": "2026-09-27T09:00:00Z"
+  }
+ ],
+ "plan_entries": [],
+ "shopping_items": []
+}

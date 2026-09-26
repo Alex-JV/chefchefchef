@@ -1,0 +1,15 @@
+{
+  "name": "shiba-cuisine",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Notre cuisine à deux (et un shiba) — PWA sans build, Supabase, GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "seed": "node scripts/build-seed.mjs",
+    "import:notion": "node scripts/import-notion.mjs"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.117.2"
+  }
+}
