@@ -10,4 +10,6 @@ window.CCC_CONFIG = {
   // Compte technique partagé (créé dans Supabase → Authentication → Users).
   // Aucun des deux profils n'a besoin d'un email : celui-ci est invisible dans l'app.
   AUTH_EMAIL: "cuisine@chefchefchef.local",
+  // Nom de l'Edge Function qui appelle Claude (l'éditeur Supabase attribue parfois un nom aléatoire).
+  PARSE_FUNCTION: "smooth-responder",
 };

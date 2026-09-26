@@ -35,7 +35,7 @@ const existingTags = new Set();
 const out = [];
 for (const b of blocks) {
   process.stdout.write(`→ ${b.title} … `);
-  const { data, error } = await supabase.functions.invoke('parse-recipe', { body: { text: b.text, existing_tags: [...existingTags] } });
+  const { data, error } = await supabase.functions.invoke(process.env.PARSE_FUNCTION || 'parse-recipe', { body: { text: b.text, existing_tags: [...existingTags] } });
   if (error || data?.error) { console.log('ÉCHEC', error?.message || data?.error); continue; }
   const r = data.recipe;
   for (const t of r.tags || []) existingTags.add(t);

@@ -28,7 +28,7 @@ L'app n'a ni inscription ni email : les deux profils 👨‍🍳 et 👩‍🍳 
 1. Menu de gauche → **Edge Functions** → **Secrets** (onglet ou bouton « Manage secrets »).
 2. Ajoute un secret : nom `ANTHROPIC_API_KEY`, valeur = ta clé Claude (`sk-ant-…`). Save.
 3. Toujours dans **Edge Functions** → **Deploy a new function** → **Via Editor** (ou « Create function » dans l'éditeur en ligne).
-   - Nom de la fonction : `parse-recipe` (exactement).
+   - Nom de la fonction : `parse-recipe` de préférence. Si l'éditeur lui a donné un nom aléatoire (du genre `smooth-responder`) et que tu ne peux pas le changer, garde-le et reporte-le dans `app/config.js` → `PARSE_FUNCTION`.
    - Efface le code d'exemple, ouvre `supabase/functions/parse-recipe/index.ts` dans ce dépôt, copie tout, colle, puis **Deploy**.
    - Si l'interface propose une option **Verify JWT** / « Enforce JWT verification », **décoche-la** : la fonction vérifie elle-même la session. (Sans ça, l'appel échouera avec une erreur 401.)
 

@@ -85,7 +85,7 @@ export function createSupabaseBackend(config) {
   }
 
   async function parseRecipe(text, existingTags) {
-    const { data, error } = await client.functions.invoke('parse-recipe', { body: { text, existing_tags: existingTags } });
+    const { data, error } = await client.functions.invoke(config.PARSE_FUNCTION || 'parse-recipe', { body: { text, existing_tags: existingTags } });
     if (error) {
       // FunctionsHttpError : le corps de la réponse (JSON ou texte) dit pourquoi.
       let detail = error.message;
