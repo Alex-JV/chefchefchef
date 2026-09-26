@@ -34,7 +34,7 @@ Ce que j'ai tranché sans te demander, et pourquoi. Tout est modifiable.
 ## Direction artistique
 
 - Mascotte shiba dessinée en SVG (`app/icons/icon.svg`, composant `Shiba` avec humeurs `happy / sleepy / curious / hungry / wink`) ; PNG générés pour iOS/Android ; `🐕` en secours dans l'écran de démarrage.
-- Palette roux `#D9822B` / crème `#F6EEDF` / noir `#1F1B18`, mode sombre automatique (système) ou forcé dans les réglages.
+- Palette construite autour du jaune `#FDD017` (actions, accents, icône), texte sombre sur jaune pour le contraste, crème et noir autour ; mode sombre automatique (système) ou forcé dans les réglages.
 - Pas de bibliothèque d'icônes : emojis natifs pour la navigation, les profils et le chien. Police « Plus Jakarta Sans » (Google Fonts, repli système hors ligne).
 
 ## Ce que je n'ai pas fait (volontairement)

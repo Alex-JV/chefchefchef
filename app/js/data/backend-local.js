@@ -2,6 +2,7 @@
 // Sert à tester l'app sans Supabase. Les données de départ viennent de seed/seed.json.
 import { TABLES } from './tables.js';
 import { parseFallback } from '../lib/parse-fallback.js';
+import { uuid } from '../lib/uuid.js';
 
 const KEY = 'ccc-local-db';
 const SESSION_KEY = 'ccc-local-session';
@@ -49,7 +50,7 @@ export function createLocalBackend() {
   const now = () => new Date().toISOString();
   async function insert(table, row) {
     load();
-    const r = { id: crypto.randomUUID(), created_at: now(), updated_at: now(), ...row };
+    const r = { id: uuid(), created_at: now(), updated_at: now(), ...row };
     db[table].push(r); save(); emit({ table, type: 'INSERT', row: r });
     return r;
   }

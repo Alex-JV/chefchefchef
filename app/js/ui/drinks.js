@@ -29,7 +29,7 @@ function DrinkList({ route }) {
   const inStock = list.filter((d) => d.stock > 0).length;
 
   return html`<div class="page">
-    <${PageHead} title="Boissons" />
+    <${PageHead} title="Boissons"><a class="btn primary small" href=${'#/boissons/nouveau?kind=' + kind}>＋ Ajouter</a></${PageHead}>
     <${Tabs} tabs=${Object.entries(KINDS).map(([id, k]) => ({ id, label: k.ic + ' ' + k.label.split(' ')[0] }))} value=${kind} onChange=${setKind} />
     <div class="row mb">
       <input class="input grow" placeholder=${kind === 'cocktail' ? 'Negroni, mezcal…' : 'Nom, type, région…'} value=${q} onInput=${(e) => setQ(e.target.value)} />
@@ -37,7 +37,7 @@ function DrinkList({ route }) {
     </div>
     ${bar && kind === 'cocktail' && html`<${MyBar} />`}
     ${kind !== 'cocktail' && list.length > 0 && html`<p class="small muted">${inStock} ${KINDS[kind].one}${inStock > 1 ? 's' : ''} en cave sur ${list.length} fiche${list.length > 1 ? 's' : ''}.</p>`}
-    ${list.length === 0 ? html`<${Empty} mood="sleepy" title=${'Aucun ' + KINDS[kind].one} text="La cave est vide, le shiba reste sobre." />`
+    ${list.length === 0 ? html`<${Empty} mood="sleepy" title=${'Aucun ' + KINDS[kind].one} text="La cave est vide, le shiba reste sobre."><a class="btn primary" href=${'#/boissons/nouveau?kind=' + kind}>＋ Ajouter</a></${Empty}>`
       : list.map((d) => html`<a class="list-item" key=${d.id} href=${'#/boissons/' + d.id}>
         ${d.photo_url ? html`<img class="thumb" src=${d.photo_url} alt="" loading="lazy" />` : html`<div class="thumb">${KINDS[d.kind].ic}</div>`}
         <div class="body">
@@ -49,7 +49,7 @@ function DrinkList({ route }) {
             ${soon(d) ? html`<span class="badge warn">à boire avant ${fmtDate(d.drink_before)}</span>` : ''}
           </div>
         </div><span class="chev">›</span></a>`)}
-    <a class="fab" href=${'#/boissons/nouveau?kind=' + kind} aria-label="Ajouter">+</a>
+    <a class="fab" href=${'#/boissons/nouveau?kind=' + kind}><span class="fab-plus">＋</span> ${kind === 'wine' ? 'Nouveau vin' : kind === 'spirit' ? 'Nouveau spiritueux' : 'Nouveau cocktail'}</a>
   </div>`;
 }
 
@@ -163,7 +163,7 @@ function DrinkEditor({ id, kind }) {
     <div class="grid-2">
       <div class="field"><label>Type</label><input class="input" value=${f.type} onInput=${(e) => set({ type: e.target.value })} placeholder=${f.kind === 'wine' ? 'rouge, blanc, nature…' : f.kind === 'spirit' ? 'rhum, gin, mezcal…' : 'long drink, short…'} /></div>
       ${f.kind !== 'cocktail' ? html`<div class="field"><label>Région</label><input class="input" value=${f.region} onInput=${(e) => set({ region: e.target.value })} /></div>`
-        : html`<div class="field"><label>Format</label><label style="display:flex;gap:6px;align-items:center;padding-top:8px;font-size:1rem;color:var(--text)"><input type="checkbox" checked=${f.is_shot} onChange=${(e) => set({ is_shot: e.target.checked })} /> C’est un shot</label></div>`}
+        : html`<div class="field"><label>Format</label><label class="check-label" style="padding-top:8px"><input type="checkbox" checked=${f.is_shot} onChange=${(e) => set({ is_shot: e.target.checked })} /> C’est un shot</label></div>`}
     </div>
     ${f.kind !== 'cocktail' && html`
       <div class="grid-2">
@@ -180,7 +180,7 @@ function DrinkEditor({ id, kind }) {
       <div class="field"><label>Technique</label><textarea class="input" value=${f.method} onInput=${(e) => set({ method: e.target.value })} placeholder="Shaker, verre, glace, garniture… [[Technique]] possible"></textarea></div>`}
     <div class="field"><label>Notes</label><textarea class="input" value=${f.notes} onInput=${(e) => set({ notes: e.target.value })} placeholder="Où goûté, avec quoi, impressions…"></textarea></div>
     <${PhotoPicker} url=${f.photo_url} onChange=${(photo_url) => set({ photo_url })} />
-    ${existing?.is_example && html`<div class="field"><label><input type="checkbox" checked=${f.is_example} onChange=${(e) => set({ is_example: e.target.checked })} /> Fiche d’exemple</label></div>`}
+    ${existing?.is_example && html`<div class="field"><label class="check-label"><input type="checkbox" checked=${f.is_example} onChange=${(e) => set({ is_example: e.target.checked })} /> Fiche d’exemple</label></div>`}
     <div class="btn-row end mt">${existing ? html`<a class="btn primary" href=${'#/boissons/' + id}>Terminer</a>` : html`<button class="btn primary" onClick=${create}>Créer</button>`}</div>
   </div>`;
 }

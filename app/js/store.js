@@ -109,14 +109,17 @@ function onRemoteChange(evt) {
 // ---------- Écritures (optimistes + réconciliées) ----------
 function stamp(row) { return { created_by: state.profile, ...row }; }
 
+// Toute erreur d'écriture est affichée (sinon un échec passe inaperçu) puis relancée.
+function shout(e) { toast('Échec de l’enregistrement : ' + (e?.message || e), { error: true, ms: 5000 }); throw e; }
+
 export async function insertRow(table, row) {
-  const saved = await backend.insert(table, stamp(row));
+  const saved = await backend.insert(table, stamp(row)).catch(shout);
   const rows = state.tables[table];
   if (!rows.some((r) => r.id === saved.id)) setState({ tables: { ...state.tables, [table]: [...rows, saved] } });
   return saved;
 }
 export async function insertRows(table, rowsIn) {
-  const saved = await backend.insertMany(table, rowsIn.map(stamp));
+  const saved = await backend.insertMany(table, rowsIn.map(stamp)).catch(shout);
   const rows = state.tables[table];
   const ids = new Set(rows.map((r) => r.id));
   setState({ tables: { ...state.tables, [table]: [...rows, ...saved.filter((r) => !ids.has(r.id))] } });
@@ -131,21 +134,21 @@ export async function updateRow(table, id, patch) {
     return saved;
   } catch (e) {
     setState({ tables: { ...state.tables, [table]: prev } });
-    throw e;
+    shout(e);
   }
 }
 export async function deleteRow(table, id) {
   const prev = state.tables[table];
   setState({ tables: { ...state.tables, [table]: prev.filter((r) => r.id !== id) } });
   try { await backend.remove(table, id); }
-  catch (e) { setState({ tables: { ...state.tables, [table]: prev } }); throw e; }
+  catch (e) { setState({ tables: { ...state.tables, [table]: prev } }); shout(e); }
 }
 export async function deleteRows(table, ids) {
   const set = new Set(ids);
   const prev = state.tables[table];
   setState({ tables: { ...state.tables, [table]: prev.filter((r) => !set.has(r.id)) } });
   try { await backend.removeMany(table, ids); }
-  catch (e) { setState({ tables: { ...state.tables, [table]: prev } }); throw e; }
+  catch (e) { setState({ tables: { ...state.tables, [table]: prev } }); shout(e); }
 }
 
 // ---------- Photos ----------

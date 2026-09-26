@@ -1,5 +1,6 @@
 // Backend Supabase : base partagée, temps réel, photos, fonction Claude.
 import { TABLES } from './tables.js';
+import { uuid } from '../lib/uuid.js';
 
 export function createSupabaseBackend(config) {
   const client = window.supabase.createClient(config.SUPABASE_URL, config.SUPABASE_ANON_KEY, {
@@ -76,7 +77,7 @@ export function createSupabaseBackend(config) {
   }
 
   async function uploadPhoto(blob, ext = 'jpg') {
-    const path = `${new Date().getFullYear()}/${crypto.randomUUID()}.${ext}`;
+    const path = `${new Date().getFullYear()}/${uuid()}.${ext}`;
     const { error } = await client.storage.from('photos').upload(path, blob, { contentType: blob.type || 'image/jpeg', upsert: false });
     if (error) throw new Error(error.message);
     const { data } = client.storage.from('photos').getPublicUrl(path);

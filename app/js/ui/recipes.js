@@ -51,6 +51,7 @@ function RecipeList() {
 
   return html`<div class="page">
     <${PageHead} title="Recettes">
+      <button class="btn primary small" onClick=${() => setAddOpen(true)}>＋ Ajouter</button>
       <select class="input" style="width:auto;min-height:36px;padding:6px 8px" value=${sort} onChange=${(e) => setSort(e.target.value)}>
         <option value="recent">Récentes</option><option value="title">A → Z</option><option value="time">Rapides</option><option value="rating">Mieux notées</option>
       </select>
@@ -60,9 +61,11 @@ function RecipeList() {
       ${tagCounts.map(([t, n]) => html`<button type="button" class=${'chip' + (tags.includes(t) ? ' on' : '')} onClick=${() => setTags(tags.includes(t) ? tags.filter((x) => x !== t) : [...tags, t])}>${t} <span class="tiny" style="opacity:.7">${n}</span></button>`)}
     </div>`}
     ${list.length === 0
-      ? html`<${Empty} mood=${recipes.length ? 'curious' : 'hungry'} title=${recipes.length ? 'Rien ne correspond' : 'Aucune recette pour l’instant'} text=${recipes.length ? 'Le shiba a reniflé partout, en vain. Change de filtre ?' : 'Colle une note de téléphone ou une page web, le shiba s’occupe du reste.'} />`
+      ? html`<${Empty} mood=${recipes.length ? 'curious' : 'hungry'} title=${recipes.length ? 'Rien ne correspond' : 'Aucune recette pour l’instant'} text=${recipes.length ? 'Le shiba a reniflé partout, en vain. Change de filtre ?' : 'Colle une note de téléphone ou une page web, le shiba s’occupe du reste.'}>
+          ${!recipes.length && html`<button class="btn primary" onClick=${() => setAddOpen(true)}>＋ Ajouter une recette</button>`}
+        </${Empty}>`
       : list.map((r) => html`<${RecipeCard} key=${r.id} r=${r} rating=${ratings.get(r.id)} />`)}
-    <button class="fab" onClick=${() => setAddOpen(true)} aria-label="Ajouter une recette">+</button>
+    <button class="fab" onClick=${() => setAddOpen(true)}><span class="fab-plus">＋</span> Nouvelle recette</button>
     ${addOpen && html`<${AddSheet} onClose=${() => setAddOpen(false)} />`}
   </div>`;
 }
@@ -333,7 +336,7 @@ function RecipeEditor({ id }) {
     <div class="field"><label>Notes</label><textarea class="input" value=${f.notes} onInput=${(e) => set({ notes: e.target.value })} placeholder="Conseils, variantes, [[Technique]]…"></textarea></div>
     <div class="field"><label>Source (lien)</label><input class="input" type="url" value=${f.source_url} onInput=${(e) => set({ source_url: e.target.value })} placeholder="https://…" /></div>
     <${PhotoPicker} url=${f.photo_url} onChange=${(photo_url) => set({ photo_url })} />
-    <div class="field"><label><input type="checkbox" checked=${f.ambiguous} onChange=${(e) => set({ ambiguous: e.target.checked })} /> Marquer « à relire » (conserve le texte d’origine sur la fiche)</label></div>
+    <div class="field"><label class="check-label"><input type="checkbox" checked=${f.ambiguous} onChange=${(e) => set({ ambiguous: e.target.checked })} /> Marquer « à relire » (conserve le texte d’origine sur la fiche)</label></div>
     ${f.ambiguous && f.source_text && html`<details class="source"><summary>Texte d’origine</summary><textarea class="input mt" rows="6" value=${f.source_text} onInput=${(e) => set({ source_text: e.target.value })}></textarea></details>`}
     <div class="btn-row end mt">
       ${existing ? html`<a class="btn primary" href=${'#/recettes/' + id}>Terminer</a>` : html`<button class="btn primary" onClick=${create}>Créer la recette</button>`}

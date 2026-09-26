@@ -20,9 +20,9 @@ function TechniqueList() {
   const list = s.tables.techniques.filter((t) => !nq || norm(t.title).includes(nq) || norm(t.description).includes(nq) || (t.tags || []).some((x) => norm(x).includes(nq)))
     .sort((a, b) => a.title.localeCompare(b.title, 'fr'));
   return html`<div class="page">
-    <${PageHead} title="Techniques" />
+    <${PageHead} title="Techniques"><a class="btn primary small" href="#/techniques/nouvelle">＋ Ajouter</a></${PageHead}>
     <div class="field"><input class="input" placeholder="Cuisson, découpe, sauce…" value=${q} onInput=${(e) => setQ(e.target.value)} /></div>
-    ${list.length === 0 ? html`<${Empty} mood="curious" title="Aucune technique" text="Pocher, ciseler, déglacer… note ici les gestes à ne pas oublier." />`
+    ${list.length === 0 ? html`<${Empty} mood="curious" title="Aucune technique" text="Pocher, ciseler, déglacer… note ici les gestes à ne pas oublier."><a class="btn primary" href="#/techniques/nouvelle">＋ Ajouter une technique</a></${Empty}>`
       : list.map((t) => html`<a class="list-item" key=${t.id} href=${'#/techniques/' + t.id}>
         ${t.photo_url ? html`<img class="thumb" src=${t.photo_url} alt="" loading="lazy" />` : html`<div class="thumb">🔪</div>`}
         <div class="body">
@@ -30,7 +30,7 @@ function TechniqueList() {
           <div class="meta">${t.description ? html`<span>${t.description.slice(0, 90)}${t.description.length > 90 ? '…' : ''}</span>` : ''}</div>
           ${(t.tags || []).length > 0 && html`<div class="chips" style="margin-top:4px">${t.tags.slice(0, 4).map((x) => html`<span class="tag">${x}</span>`)}</div>`}
         </div><span class="chev">›</span></a>`)}
-    <a class="fab" href="#/techniques/nouvelle" aria-label="Ajouter une technique">+</a>
+    <a class="fab" href="#/techniques/nouvelle"><span class="fab-plus">＋</span> Nouvelle technique</a>
   </div>`;
 }
 
@@ -89,7 +89,7 @@ function TechniqueEditor({ id }) {
     <div class="field"><label>Étapes</label><${StepsEditor} items=${f.steps} onChange=${(steps) => set({ steps })} /></div>
     <div class="field"><label>Pièges à éviter</label><${StepsEditor} items=${f.pitfalls} onChange=${(pitfalls) => set({ pitfalls })} numbered=${false} placeholder="Piège…" /></div>
     <${PhotoPicker} url=${f.photo_url} onChange=${(photo_url) => set({ photo_url })} />
-    ${existing?.is_example && html`<div class="field"><label><input type="checkbox" checked=${f.is_example} onChange=${(e) => set({ is_example: e.target.checked })} /> Fiche d’exemple</label></div>`}
+    ${existing?.is_example && html`<div class="field"><label class="check-label"><input type="checkbox" checked=${f.is_example} onChange=${(e) => set({ is_example: e.target.checked })} /> Fiche d’exemple</label></div>`}
     <div class="btn-row end mt">${existing ? html`<a class="btn primary" href=${'#/techniques/' + id}>Terminer</a>` : html`<button class="btn primary" onClick=${create}>Créer</button>`}</div>
   </div>`;
 }
