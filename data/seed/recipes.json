@@ -2,15 +2,15 @@
   {
     "notion_title": "Raclette",
     "title": "Raclette",
-    "servings": null, "prep_min": null, "cook_min": null,
-    "tags": ["fromage", "charcuterie"],
+    "servings": 1, "prep_min": null, "cook_min": null,
+    "tags": ["fromage", "charcuterie", "hiver"],
     "ingredients": [
-      { "qty": 250, "unit": "g", "name": "fromage à raclette", "note": "par personne" },
-      { "qty": 200, "unit": "g", "name": "charcuterie", "note": "200 à 250 g par personne · à revoir si jambon en chiffonnade" }
+      { "qty": 250, "unit": "g", "name": "fromage à raclette", "note": null },
+      { "qty": 200, "unit": "g", "name": "charcuterie", "note": "200 à 250 g · à revoir si jambon en chiffonnade" }
     ],
     "steps": [],
-    "notes": null, "source_url": null,
-    "ambiguous": true, "ambiguity_reason": "Quantités par personne sans nombre de convives, aucune étape."
+    "notes": "Quantités par personne : ajuste le nombre de convives sur la fiche.", "source_url": null,
+    "ambiguous": false, "ambiguity_reason": null
   },
   {
     "notion_title": "poulet enoki",

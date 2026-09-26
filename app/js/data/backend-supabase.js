@@ -65,7 +65,7 @@ export function createSupabaseBackend(config) {
 
   function subscribe(cb) {
     if (channel) client.removeChannel(channel);
-    channel = client.channel('shiba-all');
+    channel = client.channel('ccc-all');
     for (const t of TABLES) {
       channel.on('postgres_changes', { event: '*', schema: 'public', table: t }, (payload) => {
         cb({ table: t, type: payload.eventType, row: payload.eventType === 'DELETE' ? payload.old : payload.new });

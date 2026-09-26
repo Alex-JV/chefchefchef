@@ -7,7 +7,7 @@ Ce que j'ai tranché sans te demander, et pourquoi. Tout est modifiable.
 - **Pas de bundler, pas de `npm install`.** L'app est du HTML/CSS/JS pur avec Preact + htm + supabase-js vendus dans `app/vendor/` (import map). Un push sur `main` déploie tel quel. Le seul outil requis pour tester en local est Node (`./run.sh` lance un mini serveur statique sans dépendance). Motif : un non-technicien peut ouvrir, lire et modifier `config.js` sans chaîne de build.
 - **Routeur par `#hash`.** GitHub Pages ne sait pas réécrire les URL ; le hash évite toute page 404 et marche tel quel en PWA.
 - **Service worker « réseau d'abord »** pour les fichiers du site (mises à jour immédiates, cache en secours hors ligne). Les appels Supabase ne sont jamais interceptés.
-- **Un compte Supabase technique unique** (`cuisine@shiba.local`) derrière le mot de passe partagé. Les profils 👨‍🍳 / 👩‍🍳 sont un simple choix local qui signe les entrées (journal, cases cochées, ajouts). Avantages : sécurité réelle côté serveur (RLS `authenticated` uniquement, rien pour les anonymes), sessions gérées par supabase-js, realtime authentifié, zéro JWT maison. Le prix : une étape « Add user » dans le dashboard, documentée dans DEPLOY.md.
+- **Un compte Supabase technique unique** (`cuisine@chefchefchef.local`) derrière le mot de passe partagé. Les profils 👨‍🍳 / 👩‍🍳 sont un simple choix local qui signe les entrées (journal, cases cochées, ajouts). Avantages : sécurité réelle côté serveur (RLS `authenticated` uniquement, rien pour les anonymes), sessions gérées par supabase-js, realtime authentifié, zéro JWT maison. Le prix : une étape « Add user » dans le dashboard, documentée dans DEPLOY.md.
 - **La fonction `parse-recipe` vérifie elle-même la session** (`auth.getUser`) au lieu du `verify_jwt` de Supabase, pour refuser un appel qui n'aurait que la clé publique. `verify_jwt = false` dans `config.toml`.
 - **Modèle Claude : `claude-opus-5`**, sortie structurée (`output_config.format` JSON Schema), pas de fallback serveur activé (un refus est improbable sur une recette ; l'app bascule de toute façon sur l'heuristique locale et le dit).
 - **Structuration de secours locale** (`parse-fallback.js`) : si Claude est injoignable, l'app structure quand même, avec un bandeau orange « approximatif, relis ». Ça sert aussi au mode démo.
@@ -27,15 +27,15 @@ Ce que j'ai tranché sans te demander, et pourquoi. Tout est modifiable.
 
 ## Import Notion
 
-- Voir IMPORT.md. Points clés : tout est importé (29 entrées, dont 9 titres marqués 🖍️ « à écrire »), rien n'est inventé (pas de temps de préparation déduit, pas de quantité ajoutée), le texte d'origine est conservé sur chaque fiche, et les fiches ambiguës sont marquées `ambiguous` avec le texte d'origine ouvert par défaut.
+- Voir IMPORT.md. Points clés : tout est importé (29 entrées, dont 9 titres marqués 🖍️ « à écrire »), rien n'est inventé (pas de temps de préparation déduit, pas de quantité ajoutée), les fiches ambiguës sont marquées `ambiguous` et gardent leur texte d'origine visible ; les fiches complètes ne le conservent pas (inutile une fois structurées, et ça allège les fiches).
 - Les vins/cocktails de la page « Boissons » du Notion sont importés aussi (ils sont dans la section Gastronomie), en fiches réelles, stock 0 faute d'information.
 - Les fiches d'exemple (5 techniques, 1 vin, 2 spiritueux, 3 cocktails) portent `is_example = true` et un badge « exemple ». Elles citent des recettes importées via `[[…]]` pour montrer les rétroliens sans modifier les recettes elles-mêmes.
 
 ## Direction artistique
 
-- Mascotte shiba dessinée en SVG (`app/icons/shiba.svg`, composant `Shiba` avec humeurs `happy / sleepy / curious / hungry / wink`) ; PNG générés pour iOS/Android ; `🐕` en secours dans l'écran de démarrage.
+- Mascotte shiba dessinée en SVG (`app/icons/icon.svg`, composant `Shiba` avec humeurs `happy / sleepy / curious / hungry / wink`) ; PNG générés pour iOS/Android ; `🐕` en secours dans l'écran de démarrage.
 - Palette roux `#D9822B` / crème `#F6EEDF` / noir `#1F1B18`, mode sombre automatique (système) ou forcé dans les réglages.
-- Pas de bibliothèque d'icônes : emojis natifs pour la navigation et les profils, SVG pour le chien.
+- Pas de bibliothèque d'icônes : emojis natifs pour la navigation, les profils et le chien. Police « Plus Jakarta Sans » (Google Fonts, repli système hors ligne).
 
 ## Ce que je n'ai pas fait (volontairement)
 

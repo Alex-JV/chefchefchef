@@ -3,8 +3,8 @@
 import { TABLES } from './tables.js';
 import { parseFallback } from '../lib/parse-fallback.js';
 
-const KEY = 'shiba-local-db';
-const SESSION_KEY = 'shiba-local-session';
+const KEY = 'ccc-local-db';
+const SESSION_KEY = 'ccc-local-session';
 
 export function createLocalBackend() {
   let db = null;

@@ -22,4 +22,4 @@ http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': MIME[path.extname(file).toLowerCase()] || 'application/octet-stream', 'Cache-Control': 'no-store' });
     res.end(data);
   });
-}).listen(port, () => console.log(`🐕 Shiba Cuisine → http://localhost:${port}`));
+}).listen(port, () => console.log(`🐕 ChefChefChef → http://localhost:${port}`));

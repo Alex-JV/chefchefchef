@@ -1,7 +1,7 @@
 // Rejoue l'import Notion avec le VRAI mécanisme de structuration (Edge Function
 // parse-recipe → Claude), une fois Supabase déployé.
 //
-//   SUPABASE_URL=https://xxx.supabase.co SUPABASE_ANON_KEY=... SHIBA_PASSWORD=... \
+//   SUPABASE_URL=https://xxx.supabase.co SUPABASE_ANON_KEY=... CCC_PASSWORD=... \
 //     node scripts/import-notion.mjs            # écrit data/seed/recipes.generated.json
 //   ... node scripts/import-notion.mjs --insert  # insère directement dans la base
 //
@@ -14,9 +14,9 @@ import { fileURLToPath } from 'node:url';
 import { createClient } from '@supabase/supabase-js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const { SUPABASE_URL, SUPABASE_ANON_KEY, SHIBA_PASSWORD, AUTH_EMAIL = 'cuisine@shiba.local' } = process.env;
-if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !SHIBA_PASSWORD) {
-  console.error('Variables requises : SUPABASE_URL, SUPABASE_ANON_KEY, SHIBA_PASSWORD');
+const { SUPABASE_URL, SUPABASE_ANON_KEY, CCC_PASSWORD, AUTH_EMAIL = 'cuisine@chefchefchef.local' } = process.env;
+if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !CCC_PASSWORD) {
+  console.error('Variables requises : SUPABASE_URL, SUPABASE_ANON_KEY, CCC_PASSWORD');
   process.exit(1);
 }
 const insertMode = process.argv.includes('--insert');
@@ -28,7 +28,7 @@ const blocks = raw.split(/^### /m).slice(1).map((b) => {
 });
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-const { error: authError } = await supabase.auth.signInWithPassword({ email: AUTH_EMAIL, password: SHIBA_PASSWORD });
+const { error: authError } = await supabase.auth.signInWithPassword({ email: AUTH_EMAIL, password: CCC_PASSWORD });
 if (authError) { console.error('Connexion impossible :', authError.message); process.exit(1); }
 
 const existingTags = new Set();

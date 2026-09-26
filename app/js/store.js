@@ -11,7 +11,7 @@ export const PROFILES = {
 };
 export const profileEmoji = (id) => PROFILES[id]?.emoji || '🐕';
 
-const cfg = window.SHIBA_CONFIG || {};
+const cfg = window.CCC_CONFIG || {};
 const configured = !!(cfg.SUPABASE_URL && cfg.SUPABASE_ANON_KEY && window.supabase);
 export const backend = configured ? createSupabaseBackend(cfg) : createLocalBackend();
 export const isDemo = backend.kind === 'local';
@@ -19,8 +19,8 @@ export const isDemo = backend.kind === 'local';
 const state = {
   ready: false,          // données chargées
   authed: false,         // session valide
-  profile: localStorage.getItem('shiba-profile') || null,
-  theme: localStorage.getItem('shiba-theme') || 'auto',
+  profile: localStorage.getItem('ccc-profile') || null,
+  theme: localStorage.getItem('ccc-theme') || 'auto',
   online: navigator.onLine,
   tables: Object.fromEntries(TABLES.map((t) => [t, []])),
   toasts: [],
@@ -43,7 +43,7 @@ export function useStore() {
 // ---------- Thème ----------
 export function applyTheme(theme) {
   state.theme = theme;
-  localStorage.setItem('shiba-theme', theme);
+  localStorage.setItem('ccc-theme', theme);
   const root = document.documentElement;
   if (theme === 'auto') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', theme);
   for (const l of listeners) l();
@@ -69,18 +69,18 @@ export async function boot() {
 export async function login(profile, password) {
   const r = await backend.signIn(password);
   if (!r.ok) return r;
-  localStorage.setItem('shiba-profile', profile);
+  localStorage.setItem('ccc-profile', profile);
   setState({ authed: true, profile });
   await loadData();
   return r;
 }
 export function setProfile(profile) {
-  localStorage.setItem('shiba-profile', profile);
+  localStorage.setItem('ccc-profile', profile);
   setState({ profile });
 }
 export async function logout() {
   await backend.signOut();
-  localStorage.removeItem('shiba-profile');
+  localStorage.removeItem('ccc-profile');
   setState({ authed: false, ready: false, profile: null, tables: Object.fromEntries(TABLES.map((t) => [t, []])) });
 }
 
@@ -203,7 +203,7 @@ export function allIngredientNames() {
 export function exportAll() {
   return {
     exported_at: new Date().toISOString(),
-    app: 'Shiba Cuisine',
+    app: 'ChefChefChef',
     ...state.tables,
   };
 }

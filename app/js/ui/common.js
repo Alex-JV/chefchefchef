@@ -9,51 +9,14 @@ import { buildIndex, resolveLink, hrefFor } from '../lib/links.js';
 export const html = htm.bind(h);
 export { Fragment };
 
-// ---------- Mascotte shiba (SVG inline, plusieurs humeurs) ----------
+// ---------- Mascotte : le shiba, en emoji natif (🐕), avec une petite humeur ----------
+const MOOD_BADGE = { happy: '', sleepy: '💤', curious: '❓', hungry: '🍖', wink: '✨' };
 export function Shiba({ mood = 'happy', size = 64, className = '' }) {
-  // mood : happy (défaut), sleepy (yeux fermés, rien à faire), curious (tête penchée), hungry (langue)
-  const eyes = mood === 'sleepy'
-    ? html`<path d="M176 256 Q192 246 208 256" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>
-           <path d="M304 256 Q320 246 336 256" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>`
-    : mood === 'wink'
-    ? html`<ellipse cx="192" cy="254" rx="14" ry="17" fill="#1F1B18"/><circle cx="197" cy="247" r="4.5" fill="#fff"/>
-           <path d="M304 256 Q320 246 336 256" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>`
-    : html`<ellipse cx="192" cy="254" rx="14" ry="17" fill="#1F1B18"/><ellipse cx="320" cy="254" rx="14" ry="17" fill="#1F1B18"/>
-           <circle cx="197" cy="247" r="4.5" fill="#fff"/><circle cx="325" cy="247" r="4.5" fill="#fff"/>`;
-  const mouth = mood === 'hungry'
-    ? html`<path d="M256 332 L256 348" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>
-           <path d="M214 346 Q256 384 298 346" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>
-           <path d="M242 362 Q256 392 270 362 Z" fill="#E8887C"/>`
-    : mood === 'sleepy'
-    ? html`<path d="M256 332 L256 350" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>
-           <path d="M232 356 Q256 364 280 356" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>`
-    : html`<path d="M256 332 L256 352" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>
-           <path d="M214 350 Q235 374 256 352 Q277 374 298 350" stroke="#1F1B18" stroke-width="7" stroke-linecap="round" fill="none"/>`;
-  const tilt = mood === 'curious' ? 'rotate(-10 256 276)' : '';
-  const id = 'f' + Math.random().toString(36).slice(2, 8);
-  return html`<svg class=${className} viewBox="0 0 512 512" width=${size} height=${size} aria-label="Shiba" role="img">
-    <g transform=${tilt}>
-      <defs><clipPath id=${id}><circle cx="256" cy="276" r="176"/></clipPath></defs>
-      <path d="M96 214 L132 60 Q140 44 156 58 L244 150 Z" fill="#D9822B"/>
-      <path d="M120 200 L142 92 L214 158 Z" fill="#F6EEDF"/>
-      <path d="M416 214 L380 60 Q372 44 356 58 L268 150 Z" fill="#D9822B"/>
-      <path d="M392 200 L370 92 L298 158 Z" fill="#F6EEDF"/>
-      <circle cx="256" cy="276" r="176" fill="#D9822B"/>
-      <g clip-path=${'url(#' + id + ')'}>
-        <path d="M80 300 Q140 220 256 236 Q372 220 432 300 L432 470 L80 470 Z" fill="#F6EEDF"/>
-        <path d="M256 236 Q236 252 226 300 L286 300 Q276 252 256 236 Z" fill="#F6EEDF"/>
-      </g>
-      <ellipse cx="190" cy="212" rx="18" ry="11" fill="#F6EEDF"/>
-      <ellipse cx="322" cy="212" rx="18" ry="11" fill="#F6EEDF"/>
-      ${eyes}
-      <path d="M232 300 Q256 288 280 300 Q270 328 256 332 Q242 328 232 300 Z" fill="#1F1B18"/>
-      ${mouth}
-      <circle cx="150" cy="322" r="16" fill="#E8A87C" opacity=".6"/>
-      <circle cx="362" cy="322" r="16" fill="#E8A87C" opacity=".6"/>
-      <path d="M206 116 Q196 78 232 78 Q244 52 272 62 Q296 46 316 74 Q346 80 332 116 Z" fill="#fff" stroke="#1F1B18" stroke-width="6" stroke-linejoin="round"/>
-      <path d="M212 116 L326 116 L322 140 L216 140 Z" fill="#fff" stroke="#1F1B18" stroke-width="6" stroke-linejoin="round"/>
-    </g>
-  </svg>`;
+  const badge = MOOD_BADGE[mood] || '';
+  return html`<span class=${'mascot ' + className} style=${`font-size:${Math.round(size * 0.78)}px;width:${size}px;height:${size}px`} role="img" aria-label="Le shiba">
+    <span class="mascot-dog">🐕</span>
+    ${badge && html`<span class="mascot-badge" style=${`font-size:${Math.round(size * 0.3)}px`}>${badge}</span>`}
+  </span>`;
 }
 
 // ---------- États vides ----------
@@ -221,7 +184,7 @@ export function IngredientsEditor({ items = [], onChange, names = [] }) {
     ${items.length > 0 && html`<div class="ingredient-row tiny muted" style="margin-bottom:2px"><span>Qté</span><span>Unité</span><span>Ingrédient</span><span></span></div>`}
     ${items.map((it, i) => html`<div class="ingredient-row" key=${i}>
       <input class="input" inputmode="decimal" value=${it.qty ?? ''} placeholder="—" onInput=${(e) => set(i, { qty: e.target.value === '' ? null : Number(String(e.target.value).replace(',', '.')) })} />
-      <input class="input" value=${it.unit ?? ''} placeholder="g, cl…" onInput=${(e) => set(i, { unit: e.target.value || null })} list="shiba-units" />
+      <input class="input" value=${it.unit ?? ''} placeholder="g, cl…" onInput=${(e) => set(i, { unit: e.target.value || null })} list="ccc-units" />
       <div class="suggest">
         <${Suggest} value=${it.name ?? ''} onInput=${(v) => set(i, { name: v })} options=${names} placeholder="Ingrédient" />
         ${it.note && html`<div class="tiny muted">${it.note}</div>`}
@@ -232,7 +195,7 @@ export function IngredientsEditor({ items = [], onChange, names = [] }) {
         <button type="button" onClick=${() => onChange(items.filter((_, j) => j !== i))} aria-label="Supprimer">✕</button>
       </div>
     </div>`)}
-    <datalist id="shiba-units">${['g', 'kg', 'ml', 'cl', 'l', 'c. à soupe', 'c. à café', 'pincée', 'gousse', 'branche', 'tranche', 'bouquet', 'verre', 'pièce', 'volume'].map((u) => html`<option value=${u} />`)}</datalist>
+    <datalist id="ccc-units">${['g', 'kg', 'ml', 'cl', 'l', 'c. à soupe', 'c. à café', 'pincée', 'gousse', 'branche', 'tranche', 'bouquet', 'verre', 'pièce', 'volume'].map((u) => html`<option value=${u} />`)}</datalist>
     <button type="button" class="btn small" onClick=${() => onChange([...items, { qty: null, unit: null, name: '', note: null }])}>+ Ingrédient</button>
   </div>`;
 }
@@ -240,15 +203,15 @@ export function IngredientsEditor({ items = [], onChange, names = [] }) {
 // ---------- Brouillon local (sauvegarde automatique des formulaires) ----------
 export function useDraft(key, initial) {
   const [value, setValue] = useState(() => {
-    try { const d = JSON.parse(localStorage.getItem('shiba-draft:' + key) || 'null'); if (d) return d; } catch { /* ignore */ }
+    try { const d = JSON.parse(localStorage.getItem('ccc-draft:' + key) || 'null'); if (d) return d; } catch { /* ignore */ }
     return initial;
   });
   const first = useRef(true);
   useEffect(() => {
     if (first.current) { first.current = false; return; }
-    try { localStorage.setItem('shiba-draft:' + key, JSON.stringify(value)); } catch { /* ignore */ }
+    try { localStorage.setItem('ccc-draft:' + key, JSON.stringify(value)); } catch { /* ignore */ }
   }, [value]);
-  const clear = () => localStorage.removeItem('shiba-draft:' + key);
+  const clear = () => localStorage.removeItem('ccc-draft:' + key);
   return [value, setValue, clear];
 }
 

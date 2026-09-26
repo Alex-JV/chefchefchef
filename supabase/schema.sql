@@ -1,5 +1,5 @@
 -- ============================================================
---  Shiba Cuisine — schéma de base de données (Supabase / Postgres)
+--  ChefChefChef — schéma de base de données (Supabase / Postgres)
 --  À coller tel quel dans l'éditeur SQL de Supabase, puis « Run ».
 --  Idempotent : peut être relancé sans casser les données.
 -- ============================================================

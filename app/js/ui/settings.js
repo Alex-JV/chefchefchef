@@ -10,7 +10,7 @@ function download(name, content, type) {
 }
 
 function toMarkdown(data) {
-  const out = ['# Shiba Cuisine — export', '', `_${new Date().toLocaleString('fr-FR')}_`, ''];
+  const out = ['# ChefChefChef — export', '', `_${new Date().toLocaleString('fr-FR')}_`, ''];
   out.push('## Recettes', '');
   for (const r of data.recipes) {
     out.push(`### ${r.title}`, '');
@@ -50,8 +50,8 @@ function toMarkdown(data) {
 export function SettingsSection() {
   const s = useStore();
   const stamp = new Date().toISOString().slice(0, 10);
-  const exportJson = () => { download(`shiba-cuisine-${stamp}.json`, JSON.stringify(exportAll(), null, 2), 'application/json'); toast('Export JSON prêt.'); };
-  const exportMd = () => { download(`shiba-cuisine-${stamp}.md`, toMarkdown(exportAll()), 'text/markdown'); toast('Export Markdown prêt.'); };
+  const exportJson = () => { download(`chefchefchef-${stamp}.json`, JSON.stringify(exportAll(), null, 2), 'application/json'); toast('Export JSON prêt.'); };
+  const exportMd = () => { download(`chefchefchef-${stamp}.md`, toMarkdown(exportAll()), 'text/markdown'); toast('Export Markdown prêt.'); };
   const counts = s.tables;
   return html`<div class="page">
     <${PageHead} title="Réglages" back="#/recettes" />
@@ -78,6 +78,6 @@ export function SettingsSection() {
       <p class="small muted">${isDemo ? 'Mode démo : données locales à ce navigateur.' : 'Base partagée Supabase, mises à jour en temps réel.'}</p>
       <button class="btn danger" onClick=${async () => { await logout(); }}>Se déconnecter</button>
     </div>
-    <div class="center muted small mt"><${Shiba} mood="wink" size=${48} /><div>Shiba Cuisine — fait maison, pour nous trois.</div></div>
+    <div class="center muted small mt"><${Shiba} mood="wink" size=${48} /><div>ChefChefChef — fait maison, pour nous trois.</div></div>
   </div>`;
 }

@@ -17,10 +17,10 @@ export function DrinksSection({ route }) {
 
 function DrinkList({ route }) {
   const s = useStore();
-  const [kind, setKind] = useState(route.q.kind || sessionStorage.getItem('shiba-drink-kind') || 'wine');
+  const [kind, setKind] = useState(route.q.kind || sessionStorage.getItem('ccc-drink-kind') || 'wine');
   const [q, setQ] = useState('');
   const [bar, setBar] = useState(false);
-  useEffect(() => sessionStorage.setItem('shiba-drink-kind', kind), [kind]);
+  useEffect(() => sessionStorage.setItem('ccc-drink-kind', kind), [kind]);
   const nq = norm(q);
   const list = s.tables.drinks.filter((d) => d.kind === kind && (!nq || norm(d.name).includes(nq) || norm(d.type).includes(nq) || norm(d.region).includes(nq)))
     .sort((a, b) => a.name.localeCompare(b.name, 'fr'));

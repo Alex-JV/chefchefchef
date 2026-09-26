@@ -1,10 +1,10 @@
-/* Service worker « Shiba Cuisine »
+/* Service worker « ChefChefChef »
  * - Précache la coquille de l'app à l'installation.
  * - Réseau d'abord pour les fichiers du site (les mises à jour arrivent tout
  *   de suite), cache en secours quand on est hors ligne.
  * - Ne touche jamais aux appels Supabase / Claude.
  */
-const CACHE = 'shiba-shell-v1';
+const CACHE = 'ccc-shell-v2';
 const SHELL = [
   './',
   './index.html',
@@ -15,9 +15,9 @@ const SHELL = [
   './vendor/preact.module.js',
   './vendor/hooks.module.js',
   './vendor/htm.module.js',
-  './icons/shiba.svg',
-  './icons/shiba-192.png',
-  './icons/shiba-512.png',
+  './icons/icon.svg',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
   './seed/seed.json',
 ];
 

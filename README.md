@@ -1,4 +1,4 @@
-# 🐕 Shiba Cuisine
+# 🐕 ChefChefChef
 
 Notre cuisine à deux (et un shiba) : recettes, techniques, boissons, frigo & courses.
 Une PWA sans inscription, avec une base partagée en temps réel.

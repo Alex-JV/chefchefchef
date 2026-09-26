@@ -94,7 +94,7 @@ function AddSheet({ onClose }) {
     setBusy(true);
     const { parsed, via, warning } = await parseRecipeText(text);
     setBusy(false);
-    sessionStorage.setItem('shiba-parsed', JSON.stringify({ parsed, via, warning, source_text: text }));
+    sessionStorage.setItem('ccc-parsed', JSON.stringify({ parsed, via, warning, source_text: text }));
     onClose();
     go('/recettes/nouvelle?from=paste');
   };
@@ -180,10 +180,11 @@ function RecipeDetail({ id }) {
 
     ${r.notes && html`<div class="card"><h3>Notes</h3><p class="pre mb0"><${WikiText} text=${r.notes} tables=${s.tables} /></p></div>`}
     ${r.source_url && html`<p class="small">Source : <a href=${r.source_url} target="_blank" rel="noopener">${r.source_url.replace(/^https?:\/\//, '').slice(0, 60)}</a></p>`}
-    ${r.source_text && html`<details class="source card flat" open=${r.ambiguous}>
-      <summary>Texte d’origine ${r.ambiguous ? '(gardé visible : import ambigu)' : ''}</summary>
-      <pre class="pre source-box mt">${r.source_text}</pre>
-    </details>`}
+    ${r.ambiguous && r.source_text && html`<div class="card flat">
+      <h3>Texte d’origine</h3>
+      <p class="tiny muted">Gardé parce que la fiche est incomplète : de quoi la finir à la main.</p>
+      <pre class="pre source-box">${r.source_text}</pre>
+    </div>`}
 
     <${Backlinks} items=${links} />
 
@@ -273,7 +274,7 @@ function RecipeEditor({ id }) {
   const fromPaste = !id && new URLSearchParams(location.hash.split('?')[1] || '').get('from') === 'paste';
   const pasteInfo = useMemo(() => {
     if (!fromPaste) return null;
-    try { return JSON.parse(sessionStorage.getItem('shiba-parsed') || 'null'); } catch { return null; }
+    try { return JSON.parse(sessionStorage.getItem('ccc-parsed') || 'null'); } catch { return null; }
   }, [fromPaste]);
 
   const initial = useMemo(() => {
@@ -291,7 +292,7 @@ function RecipeEditor({ id }) {
   const [f, setF, clearDraft] = useDraft(draftKey, initial);
   // Fiche existante : si le brouillon local correspond à une autre version, on repart de la fiche.
   useEffect(() => { if (existing && f.id !== existing.id) setF(initial); }, [existing?.id]);
-  useEffect(() => { if (pasteInfo) { setF(initial); sessionStorage.removeItem('shiba-parsed'); } }, [pasteInfo]);
+  useEffect(() => { if (pasteInfo) { setF(initial); sessionStorage.removeItem('ccc-parsed'); } }, [pasteInfo]);
 
   const set = (patch) => setF((x) => ({ ...x, ...patch }));
   const names = useMemo(() => allIngredientNames(), [s.tables.recipes.length]);
@@ -299,7 +300,7 @@ function RecipeEditor({ id }) {
     title: x.title.trim(), servings: x.servings || null, prep_min: x.prep_min || null, cook_min: x.cook_min || null, tags: x.tags,
     ingredients: x.ingredients.filter((i) => (i.name || '').trim()).map((i) => ({ qty: i.qty === '' ? null : i.qty, unit: i.unit || null, name: i.name.trim(), note: i.note || null })),
     steps: x.steps.map((st) => st.trim()).filter(Boolean), notes: x.notes.trim() || null, source_url: x.source_url.trim() || null,
-    source_text: x.source_text || null, photo_url: x.photo_url || null, ambiguous: !!x.ambiguous,
+    source_text: x.ambiguous ? (x.source_text || null) : null, photo_url: x.photo_url || null, ambiguous: !!x.ambiguous,
   });
 
   const autosave = useAutosave(!!existing, f, async (val) => { if (val.title.trim()) { await updateRow('recipes', id, toRow(val)); clearDraft(); } });
@@ -332,8 +333,8 @@ function RecipeEditor({ id }) {
     <div class="field"><label>Notes</label><textarea class="input" value=${f.notes} onInput=${(e) => set({ notes: e.target.value })} placeholder="Conseils, variantes, [[Technique]]…"></textarea></div>
     <div class="field"><label>Source (lien)</label><input class="input" type="url" value=${f.source_url} onInput=${(e) => set({ source_url: e.target.value })} placeholder="https://…" /></div>
     <${PhotoPicker} url=${f.photo_url} onChange=${(photo_url) => set({ photo_url })} />
-    <div class="field"><label><input type="checkbox" checked=${f.ambiguous} onChange=${(e) => set({ ambiguous: e.target.checked })} /> Marquer « à relire » (garde le texte d’origine bien visible)</label></div>
-    ${f.source_text && html`<details class="source"><summary>Texte d’origine</summary><textarea class="input mt" rows="6" value=${f.source_text} onInput=${(e) => set({ source_text: e.target.value })}></textarea></details>`}
+    <div class="field"><label><input type="checkbox" checked=${f.ambiguous} onChange=${(e) => set({ ambiguous: e.target.checked })} /> Marquer « à relire » (conserve le texte d’origine sur la fiche)</label></div>
+    ${f.ambiguous && f.source_text && html`<details class="source"><summary>Texte d’origine</summary><textarea class="input mt" rows="6" value=${f.source_text} onInput=${(e) => set({ source_text: e.target.value })}></textarea></details>`}
     <div class="btn-row end mt">
       ${existing ? html`<a class="btn primary" href=${'#/recettes/' + id}>Terminer</a>` : html`<button class="btn primary" onClick=${create}>Créer la recette</button>`}
     </div>

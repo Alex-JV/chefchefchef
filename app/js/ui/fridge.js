@@ -9,8 +9,8 @@ import { analyseRecipe, addRecipesToShopping } from './shopping-logic.js';
 const TABS = [{ id: 'frigo', label: '🧊 Frigo' }, { id: 'planning', label: '📅 Planning' }, { id: 'courses', label: '🛒 Courses' }];
 
 export function FridgeSection({ route }) {
-  const [tab, setTab] = useState(route.q.tab || sessionStorage.getItem('shiba-fridge-tab') || 'frigo');
-  const pick = (t) => { setTab(t); sessionStorage.setItem('shiba-fridge-tab', t); };
+  const [tab, setTab] = useState(route.q.tab || sessionStorage.getItem('ccc-fridge-tab') || 'frigo');
+  const pick = (t) => { setTab(t); sessionStorage.setItem('ccc-fridge-tab', t); };
   return html`<div class="page">
     <${PageHead} title="Frigo & courses" />
     <${Tabs} tabs=${TABS} value=${tab} onChange=${pick} />

@@ -15,7 +15,7 @@ const NAV = [
   { id: 'recettes', label: 'Recettes', ic: '🍳' },
   { id: 'techniques', label: 'Techniques', ic: '🔪' },
   { id: 'boissons', label: 'Boissons', ic: '🍷' },
-  { id: 'frigo', label: 'Frigo & courses', ic: '🧊' },
+  { id: 'frigo', label: 'Frigo', ic: '🧊' },
 ];
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
 
   return html`<div class="app">
     ${!cooking && html`<header class="topbar">
-      <a class="brand" href="#/recettes"><${Shiba} size=${34} /> Shiba Cuisine</a>
+      <a class="brand" href="#/recettes"><${Shiba} size=${34} /> ChefChefChef</a>
       <div class="spacer"></div>
       <button class="search-btn" onClick=${() => setSearch(true)} aria-label="Rechercher">🔍 <span class="small">Chercher</span></button>
       <a class="profile-chip" href="#/reglages" title="Réglages">${profileEmoji(s.profile)}</a>

@@ -1,4 +1,4 @@
-# Mettre Shiba Cuisine en ligne — pas à pas
+# Mettre ChefChefChef en ligne — pas à pas
 
 Compte environ 30 minutes, aucune ligne de code à écrire. Tout se fait dans un navigateur.
 Il te faut : un compte GitHub, un compte Supabase (gratuit), une clé API Claude (console.anthropic.com).
@@ -8,7 +8,7 @@ Il te faut : un compte GitHub, un compte Supabase (gratuit), une clé API Claude
 ## 1. Créer le projet Supabase (la base de données partagée)
 
 1. Va sur <https://supabase.com>, connecte-toi, clique **New project**.
-2. Nom : `shiba-cuisine` (ou ce que tu veux). Choisis un **mot de passe de base de données** (garde-le, mais l'app ne l'utilise pas), une région proche (Paris / Frankfurt). Clique **Create new project** et attends 1 à 2 minutes.
+2. Nom : `chefchefchef` (ou ce que tu veux). Choisis un **mot de passe de base de données** (garde-le, mais l'app ne l'utilise pas), une région proche (Paris / Frankfurt). Clique **Create new project** et attends 1 à 2 minutes.
 3. Dans le menu de gauche, ouvre **SQL Editor** → **New query**.
 4. Ouvre le fichier `supabase/schema.sql` de ce dépôt, copie **tout** son contenu, colle-le dans l'éditeur, clique **Run**. Tu dois voir « Success ».
 5. Même chose avec `supabase/seed.sql` : nouvelle query, coller, **Run**. Ça importe tes recettes Notion, les exemples de techniques et de boissons, et le garde-manger de base.
@@ -18,7 +18,7 @@ Il te faut : un compte GitHub, un compte Supabase (gratuit), une clé API Claude
 L'app n'a ni inscription ni email : les deux profils 👨‍🍳 et 👩‍🍳 utilisent un seul compte technique invisible.
 
 1. Menu de gauche → **Authentication** → **Users** → **Add user** → **Create new user**.
-2. Email : `cuisine@shiba.local` (exactement, c'est ce qui est écrit dans `app/config.js`).
+2. Email : `cuisine@chefchefchef.local` (exactement, c'est ce qui est écrit dans `app/config.js`).
 3. Password : **le mot de passe partagé** que vous taperez tous les deux à l'ouverture de l'app. Choisis-en un solide, c'est la seule protection de vos données.
 4. Coche **Auto Confirm User**, puis **Create user**.
 5. Pour que personne d'autre ne puisse se créer un compte : **Authentication** → **Sign In / Providers** → **Email** → désactive **Allow new users to sign up** → Save.
@@ -58,7 +58,7 @@ L'app n'a ni inscription ni email : les deux profils 👨‍🍳 et 👩‍🍳 
 
    ```bash
    git add -A
-   git commit -m "Shiba Cuisine"
+   git commit -m "ChefChefChef"
    git branch -M main
    git remote add origin https://github.com/<ton-compte>/<ton-depot>.git
    git push -u origin main
@@ -81,7 +81,7 @@ L'icône shiba apparaît, l'app s'ouvre en plein écran, et les deux téléphone
 | Symptôme | Cause probable | Solution |
 |---|---|---|
 | « Mode démo » affiché en haut | `app/config.js` vide | Remplis l'URL et la clé, pousse à nouveau |
-| « Mot de passe incorrect » alors qu'il est bon | Compte partagé pas créé ou email différent | Étape 2, email exactement `cuisine@shiba.local` |
+| « Mot de passe incorrect » alors qu'il est bon | Compte partagé pas créé ou email différent | Étape 2, email exactement `cuisine@chefchefchef.local` |
 | « Claude indisponible » en collant un texte (l'app bascule sur une structuration approximative) | Fonction non déployée, secret manquant, ou « Verify JWT » resté coché | Étape 3 ; regarde **Edge Functions → parse-recipe → Logs** |
 | Les modifications de l'autre ne s'affichent pas sans recharger | Realtime pas activé sur les tables | Relance `schema.sql` (il est sans danger à relancer) |
 | Photos impossibles à envoyer | Bucket `photos` absent | Relance `schema.sql` |
@@ -89,7 +89,7 @@ L'icône shiba apparaît, l'app s'ouvre en plein écran, et les deux téléphone
 
 ## Changer le mot de passe partagé
 
-Supabase → **Authentication** → **Users** → clique sur `cuisine@shiba.local` → **Reset password** / **Update password**. Les deux téléphones devront se reconnecter.
+Supabase → **Authentication** → **Users** → clique sur `cuisine@chefchefchef.local` → **Reset password** / **Update password**. Les deux téléphones devront se reconnecter.
 
 ## Sauvegarde
 

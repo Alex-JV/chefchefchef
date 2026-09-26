@@ -1,6 +1,6 @@
 {
-  "name": "Shiba Cuisine",
-  "short_name": "Shiba",
+  "name": "ChefChefChef",
+  "short_name": "ChefChefChef",
   "description": "Notre cuisine à deux (et un shiba) : recettes, techniques, boissons, frigo et courses.",
   "start_url": "./",
   "scope": "./",
@@ -10,9 +10,9 @@
   "theme_color": "#D9822B",
   "lang": "fr",
   "icons": [
-    { "src": "./icons/shiba.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "./icons/shiba-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "./icons/shiba-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "./icons/shiba-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

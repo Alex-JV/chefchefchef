@@ -3,7 +3,7 @@ import { html, Shiba } from './common.js';
 import { PROFILES, login, isDemo } from '../store.js';
 
 export function Login() {
-  const [profile, setProfile] = useState(localStorage.getItem('shiba-profile') || null);
+  const [profile, setProfile] = useState(localStorage.getItem('ccc-profile') || null);
   const [pwd, setPwd] = useState('');
   const [err, setErr] = useState('');
   const [busy, setBusy] = useState(false);
@@ -19,7 +19,7 @@ export function Login() {
 
   return html`<div class="login">
     <${Shiba} mood="happy" size=${140} className="logo" />
-    <h1>Shiba Cuisine</h1>
+    <h1>ChefChefChef</h1>
     <p class="muted">Qui passe en cuisine ?</p>
     <div class="profiles">
       ${Object.values(PROFILES).map((p) => html`<button type="button" class=${'profile-btn' + (profile === p.id ? ' on' : '')} onClick=${() => setProfile(p.id)}>${p.emoji}<small>${p.label}</small></button>`)}

@@ -29,7 +29,8 @@ const recipes = read('data/seed/recipes.json').map((r) => {
   if (source_text === undefined) throw new Error(`Texte Notion introuvable pour « ${r.notion_title} »`);
   const { notion_title, ambiguity_reason, ...rest } = r;
   const notes = ambiguity_reason ? [rest.notes, `Import Notion — ambigu : ${ambiguity_reason}`].filter(Boolean).join('\n') : rest.notes;
-  return { id: uuid('recipe', notion_title), ...rest, notes, source_text: `${notion_title}\n${source_text}`.trim(), photo_url: null, created_by: null, created_at: NOW, updated_at: NOW };
+  // Le texte d'origine n'est conservé que sur les fiches ambiguës (pour les compléter à la main).
+  return { id: uuid('recipe', notion_title), ...rest, notes, source_text: rest.ambiguous ? `${notion_title}\n${source_text}`.trim() : null, photo_url: null, created_by: null, created_at: NOW, updated_at: NOW };
 });
 const techniques = read('data/seed/techniques.json').map((t) => ({ id: uuid('technique', t.title), ...t, photo_url: null, created_by: null, created_at: NOW, updated_at: NOW }));
 const drinks = read('data/seed/drinks.json').map((d) => ({
@@ -57,7 +58,7 @@ const insert = (table, rows, cols) => rows.length ? `insert into public.${table}
 
 const sql = [
   '-- ============================================================',
-  '--  Shiba Cuisine — données de départ (import Notion + exemples)',
+  '--  ChefChefChef — données de départ (import Notion + exemples)',
   '--  À coller dans l’éditeur SQL de Supabase APRÈS schema.sql.',
   '--  Relançable sans doublons (on conflict do nothing).',
   '-- ============================================================',
