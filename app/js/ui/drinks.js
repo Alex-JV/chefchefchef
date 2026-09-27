@@ -29,7 +29,7 @@ function DrinkList({ route }) {
   const inStock = list.filter((d) => d.stock > 0).length;
 
   return html`<div class="page">
-    <${PageHead} title="Boissons"><a class="btn primary small" href=${'#/boissons/nouveau?kind=' + kind}>＋ Ajouter</a></${PageHead}>
+    <${PageHead} title="Boissons" />
     <${Tabs} tabs=${Object.entries(KINDS).map(([id, k]) => ({ id, label: k.ic + ' ' + k.label.split(' ')[0] }))} value=${kind} onChange=${setKind} />
     <div class="row mb">
       <input class="input grow" placeholder=${kind === 'cocktail' ? 'Negroni, mezcal…' : 'Nom, type, région…'} value=${q} onInput=${(e) => setQ(e.target.value)} />

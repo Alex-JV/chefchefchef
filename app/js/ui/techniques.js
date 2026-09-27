@@ -20,7 +20,7 @@ function TechniqueList() {
   const list = s.tables.techniques.filter((t) => !nq || norm(t.title).includes(nq) || norm(t.description).includes(nq) || (t.tags || []).some((x) => norm(x).includes(nq)))
     .sort((a, b) => a.title.localeCompare(b.title, 'fr'));
   return html`<div class="page">
-    <${PageHead} title="Techniques"><a class="btn primary small" href="#/techniques/nouvelle">＋ Ajouter</a></${PageHead}>
+    <${PageHead} title="Techniques" />
     <div class="field"><input class="input" placeholder="Cuisson, découpe, sauce…" value=${q} onInput=${(e) => setQ(e.target.value)} /></div>
     ${list.length === 0 ? html`<${Empty} mood="curious" title="Aucune technique" text="Pocher, ciseler, déglacer… note ici les gestes à ne pas oublier."><a class="btn primary" href="#/techniques/nouvelle">＋ Ajouter une technique</a></${Empty}>`
       : list.map((t) => html`<a class="list-item" key=${t.id} href=${'#/techniques/' + t.id}>

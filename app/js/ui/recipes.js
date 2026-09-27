@@ -51,7 +51,6 @@ function RecipeList() {
 
   return html`<div class="page">
     <${PageHead} title="Recettes">
-      <button class="btn primary small" onClick=${() => setAddOpen(true)}>＋ Ajouter</button>
       <select class="input" style="width:auto;min-height:36px;padding:6px 8px" value=${sort} onChange=${(e) => setSort(e.target.value)}>
         <option value="recent">Récentes</option><option value="title">A → Z</option><option value="time">Rapides</option><option value="rating">Mieux notées</option>
       </select>
