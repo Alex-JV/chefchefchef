@@ -4,7 +4,7 @@
  *   de suite), cache en secours quand on est hors ligne.
  * - Ne touche jamais aux appels Supabase / Claude.
  */
-const CACHE = 'ccc-shell-v2';
+const CACHE = 'ccc-shell-v3';
 const SHELL = [
   './',
   './index.html',
@@ -40,8 +40,10 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return; // Supabase, photos externes… : jamais interceptés
 
+  // cache: 'no-cache' → revalide toujours auprès du serveur (GitHub Pages met les
+  // fichiers en cache HTTP 10 min, ce qui retardait les mises à jour de config.js).
   event.respondWith(
-    fetch(req)
+    fetch(req, { cache: 'no-cache' })
       .then((res) => {
         if (res && res.ok) {
           const copy = res.clone();
