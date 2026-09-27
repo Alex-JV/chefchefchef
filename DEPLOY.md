@@ -82,6 +82,7 @@ L'icône shiba apparaît, l'app s'ouvre en plein écran, et les deux téléphone
 |---|---|---|
 | « Mode démo » affiché en haut | `app/config.js` vide | Remplis l'URL et la clé, pousse à nouveau |
 | « Mot de passe incorrect » alors qu'il est bon | Compte partagé pas créé ou email différent | Étape 2, email exactement `cuisine@chefchefchef.local` |
+| « Impossible de lire la page » en collant un lien | Le site bloque les robots (403) ou est une appli sans contenu HTML (ex. liens Jow) | Copie le texte de la recette depuis le site et colle-le à la place |
 | « Claude indisponible » en collant un texte (l'app bascule sur une structuration approximative) | Fonction non déployée, secret manquant, ou « Verify JWT » resté coché | Étape 3 ; regarde **Edge Functions → parse-recipe → Logs** |
 | Les modifications de l'autre ne s'affichent pas sans recharger | Realtime pas activé sur les tables | Relance `schema.sql` (il est sans danger à relancer) |
 | Photos impossibles à envoyer | Bucket `photos` absent | Relance `schema.sql` |

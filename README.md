@@ -41,7 +41,7 @@ scripts/
 
 ## Fonctionnalités
 
-**Recettes** — tags libres avec suggestions, filtres, tri, portions recalculables, ingrédients structurés, étapes numérotées avec minuteur en un clic, ajout par texte collé structuré par Claude (aperçu corrigeable), édition à sauvegarde automatique, journal (dates, qui, note /5, commentaires), liens `[[nom]]` et rétroliens, mode cuisine plein écran (écran allumé, une étape à la fois, swipe/flèches).
+**Recettes** — tags libres avec suggestions, filtres, tri, portions recalculables, ingrédients structurés, étapes numérotées avec minuteur en un clic, ajout par texte collé **ou par simple lien** (la fonction lit la page, données structurées « Recipe » en priorité) structuré par Claude (aperçu corrigeable), édition à sauvegarde automatique, journal (dates, qui, note /5, commentaires), liens `[[nom]]` et rétroliens, mode cuisine plein écran (écran allumé, une étape à la fois, swipe/flèches).
 
 **Techniques** — description, étapes, pièges, liste des recettes qui les utilisent.
 
